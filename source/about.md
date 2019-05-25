@@ -1,7 +1,6 @@
 ---
 title: 关于
 date: 2019-05-19
-layout: about
 permalink: /about/
 ---
 
