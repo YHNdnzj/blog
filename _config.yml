@@ -86,7 +86,7 @@ feed:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://${GH_TOKEN}@github.com/YHNdnzj/yhndnzj.github.io.git
+  repo: https://GH_TOKEN@github.com/YHNdnzj/yhndnzj.github.io.git
   branch: master
 
 suka_theme:
