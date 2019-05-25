@@ -2,7 +2,7 @@ language: node_js
 
 node_js: stable
 
-script: build.sh
+script: ./build.sh
 
 after_success: 
 - git config --global user.name "Mike Yuan" 
