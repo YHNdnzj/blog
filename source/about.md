@@ -1,0 +1,27 @@
+---
+title: 关于
+layout: about
+permalink: /about/
+---
+
+## 我是誰
+
+我是 YHNdnzj
+
+初二狗
+
+使用正體中文
+
+熱愛 Linux & Android
+
+使用 Google Pixel
+
+Android 開發學習中
+
+常年混跡於 Telegram
+
+## 聯繫方式
+
+Telegram: [@YHNdnzj](https://t.me/YHNdnzj)
+
+Email: me@yhndnzj.com
