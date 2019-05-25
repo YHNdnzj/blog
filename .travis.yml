@@ -1,0 +1,13 @@
+language: node_js
+
+node_js: stable
+
+script: 
+- yarn install
+- hexo clean
+
+after_success: 
+- git config --global user.name "Mike Yuan" 
+- git config --global user.email "me@yhndnzj.com"
+- sed -i'' "/^ *repo/s~github\.com~${GH_TOKEN}@github.com~" _config.yml
+- hexo deploy -g
