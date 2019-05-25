@@ -18,5 +18,9 @@
     "hexo-renderer-marked": "^1.0.1",
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.3.3"
+  },
+  "devDependencies": {
+    "core-js": "^3.1.2",
+    "eslint": "^5.16.0"
   }
 }
