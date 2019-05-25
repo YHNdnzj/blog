@@ -1,6 +1,6 @@
 branches:
   only: 
-  - master
+  - source
 language: node_js
 node_js: stable
 script: ./build.sh
