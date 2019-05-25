@@ -26,7 +26,7 @@ thumbnail: https://i.loli.net/2019/05/24/5ce806fa3538760979.jpg
 
 ### 主體
 
-`pip3 install ehforwarderbot efb-telegram-master efb-wechat-slave`
+`python3 -m pip install ehforwarderbot efb-telegram-master efb-wechat-slave`
 
 ## 設定
 
@@ -60,4 +60,32 @@ admins:
 
 ### systemd 守護行程
 
-創建 `/etc/systemd/system/`
+創建 `/etc/systemd/system/efb@.service`，寫入以下內容
+
+```ini
+[Unit]
+Description=EFB instance for profile %i
+Documentation=https://github.com/blueset/ehForwarderBot
+
+[Service]
+PrivateTmp=true
+ExecStart=/usr/bin/python3 -m ehforwarderbot -p %i
+Environment="LANGUAGE=zh_CN.UTF-8"
+Environment="LC_ALL=zh_CN.UTF-8"
+Environment="LC_MESSAGES=zh_CN.UTF-8"
+Environment="LANG=zh_CN.UTF-8"
+TimeoutStopSec=10
+Restart=on-failure
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target
+```
+
+## 運行
+
+`systemctl start efb@wechat`
+
+使用 `journalctl -u efb@wechat -e` 查看輸出，掃碼登入
+
+設定爲開機自啓動：`systemctl enable efb@wechat`
