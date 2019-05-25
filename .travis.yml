@@ -1,5 +1,7 @@
+branches:
+  only: 
+  - master
 language: node_js
 node_js: stable
-script: pwd
-#script: ./build.sh
-#after_success: ./deploy.sh
+script: ./build.sh
+after_success: ./deploy.sh
