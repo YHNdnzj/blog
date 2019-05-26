@@ -1,7 +1,7 @@
 ---
 title: 使用 Telegram 收發 QQ 訊息
 date: 2019-05-26 03:54:31
-updated: 2019-05-26 04:14:31
+updated: 2019-05-26 04:21:22
 tags: 
 - EFB
 categories: 
@@ -55,9 +55,11 @@ admins:
 # 將 $ID 替換爲在上一步獲得的 Telegram ID
 ```
 
-### [EQS CoolQ Client](https://github.com/milkice233/efb-qq-slave/blob/master/doc/CoolQ_zh-CN.rst#方案二手动配置---配置-酷q-端篇)
-
 ### EQS
+
+#### [CoolQ Client](https://github.com/milkice233/efb-qq-slave/blob/master/doc/CoolQ_zh-CN.rst#方案二手动配置---配置-酷q-端篇)
+
+#### 主體
 
 創建 `~/.ehforwarderbot/profiles/qq/milkice.qq/config.yaml`，寫入以下內容
 
