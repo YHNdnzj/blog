@@ -1,7 +1,7 @@
 ---
-title: 使用 Telegram 收發 WeChat 訊息
-date: 2019-05-24 13:09:25
-updated: 2019-05-26 04:06:08
+title: 使用 Telegram 收發 QQ 訊息
+date: 2019-05-26 03:54:31
+updated: 2019-05-26 04:14:31
 tags: 
 - EFB
 categories: 
@@ -9,12 +9,9 @@ categories:
 thumbnail: https://i.loli.net/2019/05/24/5ce806fa3538760979.jpg
 ---
 
-> 本教程使用 [EFB](https://github.com/blueset/ehForwarderBot), [ETM](https://github.com/blueset/efb-telegram-master), [EWS](https://github.com/blueset/efb-wechat-slave) 和 systemd 守護行程，支援 Ubuntu >= 18.04 & Debian >= 10
+> 本教程使用 [EFB](https://github.com/blueset/ehForwarderBot), [ETM](https://github.com/blueset/efb-telegram-master), [EQS](https://github.com/milkice233/efb-qq-slave) 和 systemd 守護行程，支援 Ubuntu >= 18.04 & Debian >= 10
 >
 > <!-- more -->
->
-> （使用 EWS 有 **WeChat 網頁版被封**的危險，請謹慎使用）
->
 
 ## 安裝
 
@@ -26,20 +23,20 @@ thumbnail: https://i.loli.net/2019/05/24/5ce806fa3538760979.jpg
 
 ### 主體
 
-`python3 -m pip install ehforwarderbot efb-telegram-master efb-wechat-slave`
+`python3 -m pip install ehforwarderbot efb-telegram-master efb-qq-slave`
 
 ## 設定
 
-`mkdir -p ~/.ehforwarderbot/profiles/wechat/{,blueset.telegram}`
+`mkdir -p ~/.ehforwarderbot/profiles/qq/{,blueset.telegram,milkice.qq}`
 
 ### EFB
 
-創建 `~/.ehforwarderbot/profiles/wechat/config.yaml`，寫入以下內容
+創建 `~/.ehforwarderbot/profiles/qq/config.yaml`，寫入以下內容
 
 ```yaml
 master_channel: blueset.telegram
 slave_channels: 
-- blueset.wechat
+- milkice.qq
 ```
 
 ### ETM
@@ -48,7 +45,7 @@ slave_channels:
 
 #### 建立設定檔
 
-創建 `~/.ehforwarderbot/profiles/wechat/blueset.telegram/config.yaml`，寫入以下內容
+創建 `~/.ehforwarderbot/profiles/qq/blueset.telegram/config.yaml`，寫入以下內容
 
 ```yaml
 token: "$TOKEN"
@@ -56,6 +53,25 @@ token: "$TOKEN"
 admins: 
 - $ID
 # 將 $ID 替換爲在上一步獲得的 Telegram ID
+```
+
+### [EQS CoolQ Client](https://github.com/milkice233/efb-qq-slave/blob/master/doc/CoolQ_zh-CN.rst#方案二手动配置---配置-酷q-端篇)
+
+### EQS
+
+創建 `~/.ehforwarderbot/profiles/qq/milkice.qq/config.yaml`，寫入以下內容
+
+```yaml
+Client: CoolQ
+CoolQ:
+  type: HTTP
+  access_token: ac0f790e1fb74ebcaf45da77a6f9de47
+  api_root: http://127.0.0.1:5700/
+  host: 127.0.0.1
+  port: 8000
+  is_pro: false # 若使用 CoolQ Pro 則爲 true
+  air_option:
+    upload_to_smms: true
 ```
 
 ### systemd 守護行程
@@ -84,8 +100,8 @@ WantedBy=multi-user.target
 
 ## 運行
 
-`systemctl start efb@wechat`
+`systemctl start efb@qq`
 
-使用 `journalctl -u efb@wechat -e` 查看輸出，掃碼登入
+使用 `journalctl -u efb@qq -e` 查看輸出，掃碼登入
 
-設定爲開機自啓動：`systemctl enable efb@wechat`
+設定爲開機自啓動：`systemctl enable efb@qq`
