@@ -1,12 +1,12 @@
 ---
 title: 使用 Telegram 收發 WeChat 訊息
 date: 2019-05-24 13:09:25
-updated: 2019-05-26 04:06:08
+updated: 2019-05-26 05:01:14
 tags: 
 - EFB
 categories: 
 - 教學
-thumbnail: https://i.loli.net/2019/05/24/5ce806fa3538760979.jpg
+thumbnail: https://crowdin-static.downloads.crowdin.com/images/project-logo/299617/small/bc830edbc203da394d8b5d654bfaa0ef471.png
 ---
 
 > 本教程使用 [EFB](https://github.com/blueset/ehForwarderBot), [ETM](https://github.com/blueset/efb-telegram-master), [EWS](https://github.com/blueset/efb-wechat-slave) 和 systemd 守護行程，支援 Ubuntu >= 18.04 & Debian >= 10
