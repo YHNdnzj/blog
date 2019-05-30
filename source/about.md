@@ -1,7 +1,7 @@
 ---
 title: 关于
 date: 2019-05-24
-updated: 2019-05-30 10:44:42
+updated: 2019-05-30 11:13:33
 permalink: /about/
 ---
 
@@ -28,3 +28,5 @@ Android 開發學習中
 Telegram: [@YHNdnzj](https://t.me/YHNdnzj)
 
 Email: me@yhndnzj.com
+
+Keybase: [YHNdnzj](https://keybase.io/yhndnzj)
