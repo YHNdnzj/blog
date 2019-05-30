@@ -1,7 +1,7 @@
 ---
 title: 关于
 date: 2019-05-24
-updated: 2019-05-24
+updated: 2019-05-30 10:44:42
 permalink: /about/
 ---
 
@@ -14,6 +14,8 @@ permalink: /about/
 使用正體中文
 
 熱愛 Linux & Android
+
+Archer
 
 使用 Google Pixel
 

@@ -1,7 +1,7 @@
 ---
 title: 使用 Telegram 收發 QQ 訊息
 date: 2019-05-26 03:54:31
-updated: 2019-05-26 04:21:22
+updated: 2019-05-30 10:41:01
 tags: 
 - EFB
 categories: 
@@ -9,7 +9,7 @@ categories:
 thumbnail: https://i.loli.net/2019/05/24/5ce806fa3538760979.jpg
 ---
 
-> 本教程使用 [EFB](https://github.com/blueset/ehForwarderBot), [ETM](https://github.com/blueset/efb-telegram-master), [EQS](https://github.com/milkice233/efb-qq-slave) 和 systemd 守護行程，支援 Ubuntu >= 18.04 & Debian >= 10
+> 本教學使用 [EFB](https://github.com/blueset/ehForwarderBot), [ETM](https://github.com/blueset/efb-telegram-master), [EQS](https://github.com/milkice233/efb-qq-slave) 和 systemd 守護行程，支援 Ubuntu >= 18.04 & Debian >= 10
 >
 > <!-- more -->
 
