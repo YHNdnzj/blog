@@ -20,13 +20,13 @@ head:
     # You should use a image/x-icon type icon and configure it here.
     ico: /img/favicon.ico
     # 16x16 png
-    small: /img/favicon-16x16.png
+    small: https://i.loli.net/2019/06/22/5d0e3149a64a477906.png
     # 32x32 png
-    medium: /img/favicon-32x32.png
+    medium: https://i.loli.net/2019/06/22/5d0e326fd20b129758.png
     # 180x180 png
-    apple_touch_icon: /img/apple-touch-icon.png
+    apple_touch_icon: https://i.loli.net/2019/06/22/5d0e328bf221178584.png
     # 192x192 png
-    large: /img/favicon-192x192.png
+    large: https://i.loli.net/2019/06/22/5d0e32a0aac7854784.png
     # svg icon
     safari_pinned_tab: /img/safari-pinned-tab.svg
   # Color
@@ -46,7 +46,7 @@ head:
   # Keywords
   #   Define meta keywords tag
   #   split with ','
-  keywords: Linux,Android
+  keywords: Linux, Android
   # Site Verification
   site_verification:
     google:
@@ -80,8 +80,7 @@ uiux:
   bg_color:
 
 img:
-  avatar: https://i.loli.net/2019/05/19/5ce123bd89af590967.png
-  #avatar: /img/avatar.png
+  avatar: 'https://i.loli.net/2019/05/19/5ce123bd89af590967.png'
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -380,7 +379,7 @@ vendors:
     hanabi_browser_js: https://cdn.jsdelivr.net/gh/sukkaw/hexo-theme-suka@1.3.0/source/js/hanabi-browser.min.js
     highlight_theme: https://cdn.jsdelivr.net/gh/sukkaw/hexo-theme-suka@1.3.0/source/css/highlight/github.min.css
     gallery_css: https://cdn.jsdelivr.net/gh/sukkaw/hexo-theme-suka@1.3.0/source/css/gallery.min.css
-    gallery_js: https://cdn.jsdelivr.net/gh/sukkaw/hexo-theme-suka@1.3.0/source/css/gallery.min.js
+    gallery_js: https://cdn.jsdelivr.net/gh/sukkaw/hexo-theme-suka@1.3.0/source/js/gallery.min.js
     # You can fill in any suka built in highlight.js theme you want here, and it will override the prism theme config before.
   # Spectre.css
   # https://picturepan2.github.io/spectre/
@@ -417,7 +416,7 @@ vendors:
 fragment_cache: true
 # Theme Version
 #   localStorage cache version
-verison: 1.3.2
+verison: 1.3.3
 old_verison:
   - 0.2.0
   - 0.0.1
@@ -428,3 +427,4 @@ old_verison:
   - 1.1.1
   - 1.2.0
   - 1.3.0
+  - 1.3.2
