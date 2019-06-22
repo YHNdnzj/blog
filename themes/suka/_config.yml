@@ -20,13 +20,13 @@ head:
     # You should use a image/x-icon type icon and configure it here.
     ico: /img/favicon.ico
     # 16x16 png
-    small: https://i.loli.net/2019/06/22/5d0e3149a64a477906.png
+    small: /img/favicon-16x16.png
     # 32x32 png
-    medium: https://i.loli.net/2019/06/22/5d0e326fd20b129758.png
+    medium: /img/favicon-32x32.png
     # 180x180 png
-    apple_touch_icon: https://i.loli.net/2019/06/22/5d0e328bf221178584.png
+    apple_touch_icon: /img/apple-touch-icon.png
     # 192x192 png
-    large: https://i.loli.net/2019/06/22/5d0e32a0aac7854784.png
+    large: /img/favicon-192x192.png
     # svg icon
     safari_pinned_tab: /img/safari-pinned-tab.svg
   # Color
