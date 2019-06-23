@@ -3,9 +3,7 @@ node_js: node
 branches:
   only: 
   - source
-before_script: 
-  - ./install-theme.sh
-  - hexo clean
+before_script: ./install-theme.sh
 script: 
   - hexo generate
 after_success: ./deploy.sh
