@@ -1,7 +1,10 @@
+language: node_js
 branches:
   only: 
   - source
-language: node_js
-node_js: stable
-script: ./build.sh
+before_script: 
+  - ./install-theme.sh
+  - hexo clean
+script: 
+  - hexo generate
 after_success: ./deploy.sh
