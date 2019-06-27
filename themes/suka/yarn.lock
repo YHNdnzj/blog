@@ -860,9 +860,9 @@ ejs@2.5.6:
   integrity sha1-R5Y2v6P+Ox3r1SCH8KyyBLTxnIg=
 
 electron-to-chromium@^1.3.164:
-  version "1.3.174"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.174.tgz#011c68d4130e995cbb69c533e147d7f4856e9f39"
-  integrity sha512-OEh3EARo2B07ZRtxB0u9GqWyWmTeNS+diMp5bjw4kqMjgpzqM0w1zUOyErDsyWxTdArbvZ79T/w5n3WsBVHLfA==
+  version "1.3.175"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.175.tgz#a269716af5e549f9f3989ae38ba484881dcb3702"
+  integrity sha512-cQ0o7phcPA0EYkN4juZy/rq4XVxl/1ywQnytDT9hZTC0cHfaOBqWK2XlWp9Mk8xRGntgnmxlHTOux4HLb2ZNnA==
 
 emoji-regex@^7.0.1:
   version "7.0.3"
