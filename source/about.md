@@ -9,7 +9,7 @@ permalink: /about/
 
 我是 YHNdnzj
 
-初二狗
+初~~二~~三狗
 
 使用正體中文
 
