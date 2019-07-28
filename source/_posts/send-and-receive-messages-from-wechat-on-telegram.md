@@ -30,7 +30,7 @@ thumbnail: https://i.loli.net/2019/05/24/5ce806fa3538760979.jpg
 
 ## 設定
 
-`mkdir -p ~/.ehforwarderbot/profiles/wechat/{,blueset.telegram}`
+`mkdir -p ~/.ehforwarderbot/profiles/wechat/blueset.telegram`
 
 ### EFB
 
