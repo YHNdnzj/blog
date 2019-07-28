@@ -105,6 +105,4 @@ WantedBy=multi-user.target
 
 `systemctl start efb@qq`
 
-使用 `journalctl -u efb@qq -e` 查看輸出，掃碼登入
-
 設定爲開機自啓動：`systemctl enable efb@qq`
