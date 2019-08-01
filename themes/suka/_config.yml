@@ -80,7 +80,7 @@ uiux:
   bg_color:
 
 img:
-  avatar: 'https://i.loli.net/2019/05/19/5ce123bd89af590967.png'
+  avatar: '/img/avatar.png'
 
 # ---------------------------------------------------------------
 # Menu Settings
