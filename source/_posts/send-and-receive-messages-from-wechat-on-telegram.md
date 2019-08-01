@@ -6,7 +6,7 @@ tags:
 - EFB
 categories: 
 - 教學
-thumbnail: https://i.loli.net/2019/05/24/5ce806fa3538760979.jpg
+thumbnail: /img/thumbnails/efb.jpg
 ---
 
 > 本教學使用 [EFB](https://github.com/blueset/ehForwarderBot), [ETM](https://github.com/blueset/efb-telegram-master), [EWS](https://github.com/blueset/efb-wechat-slave) 和 systemd 守護行程，支援 Ubuntu >= 18.04 & Debian >= 10
