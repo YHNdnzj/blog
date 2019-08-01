@@ -51,11 +51,11 @@ slave_channels:
 創建 `/etc/ehforwarderbot/profiles/wechat/blueset.telegram/config.yaml`，寫入以下內容
 
 ```yaml
-token: "$TOKEN"
-# 將 $TOKEN 替換爲在上一步獲得的 Token
+token: "TOKEN"
+# 將 TOKEN 替換爲在上一步獲得的 Token
 admins: 
-- $ID
-# 將 $ID 替換爲在上一步獲得的 Telegram ID
+- ID
+# 將 ID 替換爲在上一步獲得的 Telegram ID
 ```
 
 ### systemd 守護行程
