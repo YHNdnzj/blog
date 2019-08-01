@@ -88,11 +88,7 @@ Documentation=https://github.com/blueset/ehForwarderBot
 [Service]
 PrivateTmp=true
 ExecStart=/usr/bin/python3 -m ehforwarderbot -p %i
-Environment=EFB_DATA_PATH=/etc/ehforwarderbot
-Environment=LANGUAGE=zh_CN.UTF-8
-Environment=LC_ALL=zh_CN.UTF-8
-Environment=LC_MESSAGES=zh_CN.UTF-8
-Environment=LANG=zh_CN.UTF-8
+Environment=EFB_DATA_PATH=/etc/ehforwarderbot LANGUAGE=zh_CN.UTF-8 LC_ALL=zh_CN.UTF-8 LC_MESSAGES=zh_CN.UTF-8 LANG=zh_CN.UTF-8
 TimeoutStopSec=10
 Restart=on-failure
 KillSignal=SIGINT
