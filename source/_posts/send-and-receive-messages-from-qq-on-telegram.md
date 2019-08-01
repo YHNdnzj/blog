@@ -6,7 +6,7 @@ tags:
 - EFB
 categories: 
 - 教學
-thumbnail: /theme/suka/source/img/thumbnails/efb.jpg
+thumbnail: /thumbnails/efb.jpg
 ---
 
 > 本教學使用 [EFB](https://github.com/blueset/ehForwarderBot), [ETM](https://github.com/blueset/efb-telegram-master), [EQS](https://github.com/milkice233/efb-qq-slave) 和 systemd 守護行程，支援 Ubuntu >= 18.04 & Debian >= 10
