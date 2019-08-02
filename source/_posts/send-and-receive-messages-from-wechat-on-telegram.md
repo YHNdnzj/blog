@@ -22,7 +22,7 @@ thumbnail: /img/thumbnails/efb.jpg
 
 ### 二進制依賴
 
-`apt install python3-pip python3-setuptools python3-wheel ffmpeg libmagic1 libwebp6 git -y`
+`apt install python3-pip python3-wheel ffmpeg libmagic1 libwebp6 git -y`
 
 ### 主體
 
