@@ -19,11 +19,11 @@ thumbnail: /img/thumbnails/efb.jpg
 
 ### 二進制依賴
 
-`apt install python3-pip python3-wheel ffmpeg libmagic1 libwebp6 git -y`
+`apt -y install python3-pip python3-wheel ffmpeg libmagic1 libwebp6`
 
 ### 主體
 
-`python3 -m pip install ehforwarderbot efb-telegram-master efb-qq-slave`
+`pip3 install ehforwarderbot efb-telegram-master efb-qq-slave`
 
 ## 設定
 
