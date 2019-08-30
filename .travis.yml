@@ -3,7 +3,7 @@ node_js: node
 branches:
   only: 
   - source
-before_script: ./install-theme.sh
+before_script: ./.travis-install-theme.sh
 script: 
   - hexo generate
-after_success: ./deploy.sh
+after_success: ./.travis-deploy.sh
