@@ -6,22 +6,22 @@ LWL 的自由天空:
 Sukka's Blog:
   url: https://blog.skk.moe
   img: https://secure.gravatar.com/avatar/979869bac8c7bd23fbd649064eabd48e?s=128
-  text: "苏卡卡的有底洞"
+  text: "童话只美在真实却从不续写"
 
 LetITFly BBS:
   url: https://bbs.letitfly.me
   img: https://img10.360buyimg.com/img/jfs/t27589/103/2483729578/7233/ef6f8c93/5c02c75fN7fbe1606.png
-  text: "让 Android 回归它原本的样子"
+  text: "致力于让 Android 的体验更美好"
 
 Justf Tech Channel:
-  url: https://tech.justf.space
+  url: https://channel.justf.space
   img: https://img10.360buyimg.com/img/jfs/t30565/325/951432721/38335/a3c2d4eb/5c02c684Nc2f5a12a.jpg
-  text: "幸福如人饮水，冷暖自知"
+  text: "幸福如人饮水，冷暖自知。"
 
-天空之边:
-  url: https://liyin.date
-  img: https://liyin.date/myfiles/images/logo.png
-  text: "用心探知天空的边界"
+# 天空之边:
+  # url: https://liyin.date
+  # img: https://liyin.date/myfiles/images/logo.png
+  # text: "用心探知天空的边界"
 
 Yuuta 的折腾 oo:
   url: https://blog.yuuta.moe
@@ -30,7 +30,7 @@ Yuuta 的折腾 oo:
 超能小紫:
   url: https://www.mokeyjay.com
   img: https://www.mokeyjay.com/wp-content/uploads/2017/04/2017040608512197.jpg
-  text: "PHP初学者 // ACG爱好者 // 专业学渣 // 余业萝莉控"
+  text: "Web全沾 // 专业学渣 // 贰刺猿 // 永远还不完信用卡"
 
 星尘独奏曲:
   url: https://www.starduster.me
@@ -40,7 +40,7 @@ Yuuta 的折腾 oo:
 1A23 Studio:
   url: https://1a23.com
   img: https://1a23.com/eanois_themes/default/images/logo4square.svg
-  text: "We create"
+  text: "We create."
 
 JerryQu 的小站:
   url: https://imququ.com
@@ -50,7 +50,7 @@ JerryQu 的小站:
 KK 的博客:
   url: https://ikk.me
   img: https://diygod.me/images/link/kk.jpg
-  text: "code just like a piece of shit"
+  text: "code just like a piece of shit."
 
 烧饼博客:
   url: https://sb.sb/blog/
@@ -69,7 +69,7 @@ Hi, DIYgod:
 Milkice's IceBox:
   url: https://milkice.me
   img: https://i.loli.net/2019/05/19/5ce1462a86b9d39837.jpg
-  text: "不折腾会死的剧毒奶冰"
+  text: "Maybe a way to explore the world?"
 
 零件's Blog:
   url: https://nekosc.com
