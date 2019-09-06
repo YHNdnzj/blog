@@ -1,7 +1,7 @@
 ---
 title: 关于
 date: 2019-05-24
-updated: 2019-05-30 11:13:33
+updated: 2019-09-06 14:21:06
 permalink: /about/
 ---
 
@@ -11,22 +11,20 @@ permalink: /about/
 
 初~~二~~三狗
 
+常年混跡於 Telegram
+
 使用正體中文
 
 熱愛 Linux & Android
 
 Archer
 
-使用 Google Pixel
-
 Android 開發學習中
-
-常年混跡於 Telegram
 
 ## 聯繫方式
 
 Telegram: [@YHNdnzj](https://t.me/YHNdnzj)
 
-Email: me@yhndnzj.com
-
 Keybase: [YHNdnzj](https://keybase.io/yhndnzj)
+
+Email: me@yhndnzj.com
