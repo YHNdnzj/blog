@@ -1399,13 +1399,12 @@ hexo-generator-archive@^1.0.0:
   dependencies:
     hexo-pagination "1.0.0"
 
-hexo-generator-category@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/hexo-generator-category/-/hexo-generator-category-0.1.3.tgz#b9e6a5862530a83bdd7da4c819c1b9f3e4ccb4b2"
-  integrity sha1-uealhiUwqDvdfaTIGcG58+TMtLI=
+hexo-generator-category@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-category/-/hexo-generator-category-1.0.0.tgz#cd2a2b03eb326da3ef821d6e29408488cc132eb5"
+  integrity sha512-kmtwT1SHYL2ismbGnYQXNtqLFSeTdtHNbJIqno3LKROpCK8ybST5QVXF1bZI9LkFcXV/H8ilt8gfg4/dNNcQQQ==
   dependencies:
-    hexo-pagination "0.0.2"
-    object-assign "^2.0.0"
+    hexo-pagination "1.0.0"
 
 hexo-generator-feed@^2.0.0:
   version "2.0.0"
@@ -1451,13 +1450,6 @@ hexo-log@^0.2.0:
   dependencies:
     chalk "^1.1.1"
     hexo-bunyan "^1.0.0"
-
-hexo-pagination@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/hexo-pagination/-/hexo-pagination-0.0.2.tgz#8cf470c7db0de5b18a3926a76deb194015df7f2b"
-  integrity sha1-jPRwx9sN5bGKOSanbesZQBXffys=
-  dependencies:
-    utils-merge "^1.0.0"
 
 hexo-pagination@1.0.0:
   version "1.0.0"
@@ -2419,11 +2411,6 @@ nunjucks@^3.0.0, nunjucks@^3.1.3:
   optionalDependencies:
     chokidar "^2.0.0"
 
-object-assign@^2.0.0:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-2.1.1.tgz#43c36e5d569ff8e4816c4efa8be02d26967c18aa"
-  integrity sha1-Q8NuXVaf+OSBbE76i+AtJpZ8GKo=
-
 object-assign@^4.0.1, object-assign@^4.1.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
@@ -3341,7 +3328,7 @@ util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-utils-merge@1.0.1, utils-merge@^1.0.0:
+utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
