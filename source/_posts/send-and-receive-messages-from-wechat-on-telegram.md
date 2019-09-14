@@ -1,11 +1,9 @@
 ---
 title: 使用 Telegram 收發 WeChat 訊息
 date: 2019-05-24 13:09:25
-updated: 2019-09-14 10:17:09
+updated: 2019-09-14 10:27:37
 tags: 
 - EFB
-categories: 
-- 教學
 thumbnail: /img/thumbnails/efb.jpg
 ---
 

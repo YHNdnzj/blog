@@ -1,11 +1,9 @@
 ---
 title: 使用 Telegram 收發 QQ 訊息
 date: 2019-05-26 03:54:31
-updated: 2019-09-14 10:16:00
+updated: 2019-09-14 10:27:10
 tags: 
 - EFB
-categories: 
-- 教學
 thumbnail: /img/thumbnails/efb.jpg
 ---
 
