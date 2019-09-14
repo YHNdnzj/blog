@@ -88,7 +88,7 @@ feed:
 deploy:
   type: git
   repo: https://GH_TOKEN@github.com/YHNdnzj/yhndnzj.github.io.git
-  branch: gh-pages
+  branch: master
 
 suka_theme:
   search:
