@@ -20,13 +20,13 @@ head:
     # You should use a image/x-icon type icon and configure it here.
     ico: /img/favicon.ico
     # 16x16 png
-    small: /img/favicon-16x16.png
+    small: /img/favicon-16x16.webp
     # 32x32 png
-    medium: /img/favicon-32x32.png
+    medium: /img/favicon-32x32.webp
     # 180x180 png
-    apple_touch_icon: /img/apple-touch-icon.png
+    apple_touch_icon: /img/apple-touch-icon.webp
     # 192x192 png
-    large: /img/favicon-192x192.png
+    large: /img/favicon-192x192.webp
     # svg icon
     safari_pinned_tab: /img/safari-pinned-tab.svg
   # Color
@@ -80,7 +80,7 @@ uiux:
   bg_color:
 
 img:
-  avatar: '/img/avatar.png'
+  avatar: '/img/avatar.webp'
 
 # ---------------------------------------------------------------
 # Menu Settings
