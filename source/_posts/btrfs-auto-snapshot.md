@@ -5,7 +5,7 @@ updated: 2019-09-14 10:19:12
 tags: 
 - Linux
 - Btrfs
-thumbnail: /img/thumbnails/btrfs.png
+thumbnail: /img/thumbnails/btrfs.webp
 ---
 
 > Btrfs 有許多吸引人的特性，其中之一就是 Snapshot。經過搜尋，發現 snapper 等已有的程式有許多我不需要的功能，於是決定使用 Bash Script + systemd Unit 實現
