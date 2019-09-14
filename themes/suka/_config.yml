@@ -19,13 +19,13 @@ head:
   favicon:
     # You should use a image/x-icon type icon and configure it here.
     ico: /img/favicon.ico
-    # 16x16 png
+    # 16x16 webp
     small: /img/favicon-16x16.webp
-    # 32x32 png
+    # 32x32 webp
     medium: /img/favicon-32x32.webp
-    # 180x180 png
+    # 180x180 webp
     apple_touch_icon: /img/apple-touch-icon.webp
-    # 192x192 png
+    # 192x192 webp
     large: /img/favicon-192x192.webp
     # svg icon
     safari_pinned_tab: /img/safari-pinned-tab.svg
@@ -93,7 +93,7 @@ nav:
   archives:
     use: true
   rss:
-    use: true
+    use: false
   share:
     use: true
   search:
