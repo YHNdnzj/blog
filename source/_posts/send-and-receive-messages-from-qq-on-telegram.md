@@ -1,7 +1,7 @@
 ---
 title: 使用 Telegram 收發 QQ 訊息
 date: 2019-05-26 03:54:31
-updated: 2019-08-15 11:58:48
+updated: 2019-09-14 10:16:00
 tags: 
 - EFB
 categories: 
@@ -15,19 +15,19 @@ thumbnail: /img/thumbnails/efb.jpg
 
 ## 安裝
 
-建議先使用 `apt update && apt upgrade -y` 更新所有軟體包
+建議先使用 `# apt update && apt upgrade -y` 更新所有軟體包
 
 ### 二進制依賴
 
-`apt -y install python3-pip python3-wheel ffmpeg libmagic1 libwebp6`
+`# apt -y install python3-pip python3-wheel ffmpeg libmagic1 libwebp6`
 
 ### 主體
 
-`pip3 install ehforwarderbot efb-telegram-master efb-qq-slave`
+`# pip3 install ehforwarderbot efb-telegram-master efb-qq-slave`
 
 ## 設定
 
-`mkdir -p /etc/ehforwarderbot/profiles/qq/{blueset.telegram,milkice.qq}`
+`# mkdir -p /etc/ehforwarderbot/profiles/qq/{blueset.telegram,milkice.qq}`
 
 ### EFB
 
@@ -99,6 +99,6 @@ WantedBy=multi-user.target
 
 ## 運行
 
-`systemctl start efb@qq`
+`# systemctl start efb@qq`
 
-設定爲開機自啓動：`systemctl enable efb@qq`
+設定爲開機自啓動：`# systemctl enable efb@qq`

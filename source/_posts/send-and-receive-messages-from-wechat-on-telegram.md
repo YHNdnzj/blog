@@ -1,7 +1,7 @@
 ---
 title: 使用 Telegram 收發 WeChat 訊息
 date: 2019-05-24 13:09:25
-updated: 2019-08-15 11:58:25
+updated: 2019-09-14 10:17:09
 tags: 
 - EFB
 categories: 
@@ -18,19 +18,19 @@ thumbnail: /img/thumbnails/efb.jpg
 
 ## 安裝
 
-建議先使用 `apt update && apt upgrade -y` 更新所有軟體包
+建議先使用 `# apt update && apt upgrade -y` 更新所有軟體包
 
 ### 二進制依賴
 
-`apt -y install python3-pip python3-wheel ffmpeg libmagic1 libwebp6`
+`# apt -y install python3-pip python3-wheel ffmpeg libmagic1 libwebp6`
 
 ### 主體
 
-`pip3 install ehforwarderbot efb-telegram-master efb-wechat-slave`
+`# pip3 install ehforwarderbot efb-telegram-master efb-wechat-slave`
 
 ## 設定
 
-`mkdir -p /etc/ehforwarderbot/profiles/wechat/blueset.telegram`
+`# mkdir -p /etc/ehforwarderbot/profiles/wechat/blueset.telegram`
 
 ### EFB
 
@@ -81,8 +81,8 @@ WantedBy=multi-user.target
 
 ## 運行
 
-`systemctl start efb@wechat`
+`# systemctl start efb@wechat`
 
-使用 `journalctl -u efb@wechat -e` 查看輸出，掃碼登入
+使用 `$ journalctl -u efb@wechat -e` 查看輸出，掃碼登入
 
-設定爲開機自啓動：`systemctl enable efb@wechat`
+設定爲開機自啓動：`# systemctl enable efb@wechat`

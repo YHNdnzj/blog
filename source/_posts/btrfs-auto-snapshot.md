@@ -1,7 +1,7 @@
 ---
 title: Btrfs 自動創建 Snapshot
 date: 2019-09-13 16:28:17
-updated: 2019-09-14 09:11:56
+updated: 2019-09-14 10:19:12
 tags: 
 - Linux
 - Btrfs
@@ -12,12 +12,12 @@ thumbnail: /img/thumbnails/btrfs.png
 
 ## 安裝
 
-`curl -fsSL https://github.com/YHNdnzj/btrfs-snapshot/raw/master/install.sh | bash`
+`# curl -fsSL https://github.com/YHNdnzj/btrfs-snapshot/raw/master/install.sh | bash`
 
 ## 運行
 
-使用 `systemd-escape -p /path/to/mountpoint` 將掛載點轉義爲 C-style "\x2d"
+使用 `$ systemd-escape -p /path/to/mountpoint` 將掛載點轉義爲 C-style "\x2d"
 
-`systemctl --now enable btrfs-snapshot@escaped-path.timer` 啓動 Timer
+啓動 Timer：`# systemctl --now enable btrfs-snapshot@escaped-path.timer`
 
 目前會自動保留 10 個 Snapshot，如需更改可自行修改 `/usr/local/bin/btrfs-snapshot` 的 `num` 變量
