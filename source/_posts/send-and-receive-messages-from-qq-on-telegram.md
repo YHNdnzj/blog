@@ -4,7 +4,7 @@ date: 2019-05-26 03:54:31
 updated: 2019-09-14 10:27:10
 tags: 
 - EFB
-thumbnail: /img/thumbnais/efb.webp
+thumbnail: /img/thumbnails/efb.webp
 ---
 
 > 本教學使用 [EFB](https://github.com/blueset/ehForwarderBot), [ETM](https://github.com/blueset/efb-telegram-master), [EQS](https://github.com/milkice233/efb-qq-slave) 和 systemd 守護行程，支援 Ubuntu >= 18.04 & Debian >= 10
