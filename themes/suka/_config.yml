@@ -110,13 +110,13 @@ nav:
 # SNS Share Switch
 # Used to choose which items will be displayed in share menu.
 sns_share:
-  weibo: false
-  facebook: false
-  twitter: false
-  telegram: false
-  googleplus: false
-  linkedin: false
-  qq: false
+  weibo: true
+  facebook: true
+  twitter: true
+  telegram: true
+  googleplus: true
+  linkedin: true
+  qq: true
 
 # Qrcode which will show in share menu, for redirect to other device
 qrcode:
