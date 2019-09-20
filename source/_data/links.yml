@@ -116,18 +116,24 @@ OriginCode 札記:
 
 Nick’s Nichijou:
   url: https://nichi.co
+  img: https://assets.gitlab-static.net/uploads/-/system/user/avatar/489470/avatar.png
+  text: "Golang吹/Arch党/后端狗"
 
 Farseerfc的小窩:
   url: https://farseerfc.me
+  img: https://farseerfc.me/images/avatar.jpg
 
 FiveYellowMice's Blog:
   url: https://fiveyellowmice.com
+  img: https://avatars1.githubusercontent.com/u/9077203
 
 本格异想录:
   url: https://astrianzheng.cn
+  img: https://cdn.astrianzheng.cn/favicon.png
 
 瘋魔:
   url: https://blog.peven.me
+  img: https://avatars2.githubusercontent.com/u/23262111
 
 weearc的个人博客:
   url: https://blog.weearc.top
@@ -135,3 +141,4 @@ weearc的个人博客:
 
 Edward-P's Blog:
   url: https://blog.edward-p.xyz
+  img: https://avatars3.githubusercontent.com/u/7891089
