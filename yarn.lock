@@ -1365,6 +1365,11 @@ hexo-deployer-git@^2.0.0:
     moment "^2.18.0"
     swig-templates "^2.0.2"
 
+hexo-filter-nofollow@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/hexo-filter-nofollow/-/hexo-filter-nofollow-2.0.2.tgz#903692f95f26d6ad8933e9926c94d422bbf25d68"
+  integrity sha512-roIkEIkGOR22EPMoy8iKrufDoAH25LOT5ZeVXVLavEpM757Y96kfUhyathryMLXr326EURffgkZAKsVf3EDl0A==
+
 hexo-front-matter@^0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/hexo-front-matter/-/hexo-front-matter-0.2.3.tgz#c7ca8ef420ea36bd85e8408a2e8c9bf49efa605e"
