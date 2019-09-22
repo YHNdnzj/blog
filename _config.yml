@@ -82,9 +82,6 @@ theme: suka
 feed:
   type: atom
   limit: 20
-nofollow:
-  enable: true
-  field: site
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
