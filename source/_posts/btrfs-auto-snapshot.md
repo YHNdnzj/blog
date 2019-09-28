@@ -1,7 +1,7 @@
 ---
 title: Btrfs 自動創建 Snapshot
 date: 2019-09-13 16:28:17
-updated: 2019-09-14 10:19:12
+updated: 2019-09-28 07:31:22
 tags: 
 - Linux
 - Btrfs
@@ -20,4 +20,4 @@ thumbnail: /img/thumbnails/btrfs.webp
 
 啓動 Timer：`# systemctl --now enable btrfs-snapshot@escaped-path.timer`
 
-目前會自動保留 10 個 Snapshot，如需更改可自行修改 `/usr/local/bin/btrfs-snapshot` 的 `num` 變量
+目前會自動保留 10 個 Snapshot，如需更改可自行修改 systemd service 的 ExecStart 項
