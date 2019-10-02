@@ -262,9 +262,9 @@ binary-extensions@^2.0.0:
   integrity sha512-Phlt0plgpIIBOGTT/ehfFnbNlfsDEiqmzE2KRXoX1bLIlir4X/MR+zSyBEkL05ffWgnRSf/DXv+WrUAVr93/ow==
 
 bluebird@^3.2.2, bluebird@^3.4.0, bluebird@^3.5.0, bluebird@^3.5.1, bluebird@^3.5.2, bluebird@^3.5.3, bluebird@^3.5.5:
-  version "3.5.5"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.5.tgz#a8d0afd73251effbbd5fe384a77d73003c17a71f"
-  integrity sha512-5am6HnnfN+urzt4yfg7IgTbotDjIT/u8AJpEt0sIU9FtXfVeezXAPKswrG+xKUCOYAINpSdgZVDU6QFh+cuH3w==
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.0.tgz#56a6a886e03f6ae577cffedeb524f8f2450293cf"
+  integrity sha512-aBQ1FxIa7kSWCcmKHlcHFlT2jt6J/l4FzC7KcPELkOJOsPOb/bccdhmIrKDfXhwFrmc7vDoDrrepFvGqjyXGJg==
 
 boolbase@~1.0.0:
   version "1.0.0"
@@ -450,9 +450,9 @@ chokidar@^2.0.0, chokidar@^2.0.4:
     fsevents "^1.2.7"
 
 chokidar@^3.0.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.2.0.tgz#a0b08f9b770c082def0100e0fbcef322ad156a8a"
-  integrity sha512-ViJAmAatEHwGCbBa8coPyRY6yiQ+yryuHT9XnkV6l0ct140Tf6JguJ0LtgoJrjxr9I9utL8IRuqbjhDJAeWIeg==
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.2.1.tgz#4634772a1924512d990d4505957bf3a510611387"
+  integrity sha512-/j5PPkb5Feyps9e+jo07jUZGvkB5Aj953NrI4s8xSVScrAo/RHeILrtdb4uzR7N6aaFFxxJ+gt8mA8HfNpw76w==
   dependencies:
     anymatch "~3.1.1"
     braces "~3.0.2"
