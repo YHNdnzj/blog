@@ -5,5 +5,5 @@ branches:
   - source
 before_script: ./.travis-install-theme.sh
 script: 
-  - hexo generate
+  - yarn run build
 after_success: ./.travis-deploy.sh
