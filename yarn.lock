@@ -619,13 +619,13 @@ cross-spawn@^6.0.5:
     which "^1.2.9"
 
 cross-spawn@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.0.tgz#21ef9470443262f33dba80b2705a91db959b2e03"
-  integrity sha512-6U/8SMK2FBNnB21oQ4+6Nsodxanw1gTkntYA2zBdkFYFu3ZDx65P2ONEXGSvob/QS6REjVHQ9zxzdOafwFdstw==
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.1.tgz#0ab56286e0f7c24e153d04cc2aa027e43a9a5d14"
+  integrity sha512-u7v4o84SwFpD32Z8IIcPZ6z1/ie24O6RU3RbtL5Y316l3KuHVPx9ItBgWQ6VlfAFnRnTtMUrsQ9MUUTuEZjogg==
   dependencies:
     path-key "^3.1.0"
-    shebang-command "^1.2.0"
-    which "^1.2.9"
+    shebang-command "^2.0.0"
+    which "^2.0.1"
 
 css-parse@1.7.x:
   version "1.7.0"
@@ -1524,9 +1524,9 @@ hexo-util@^0.6.3:
     striptags "^2.1.1"
 
 hexo-util@^1.0.0:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-1.3.1.tgz#10a8f45eff5b2f7956ad0ba7eecc1db77c552f7d"
-  integrity sha512-s/o0BMaU6F/1KqWZO4fvChAk/NbXeTjAKtxgZXqdJrPChpXHWtybKer3qzh7ZYn0Srdb3v1lkrReTXDtivzDoA==
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-1.4.0.tgz#73dff21e544fbe37399a9f2103704528db411e8a"
+  integrity sha512-UHvp4aZ4h1cSgGvtBZfEIYoaK2FfEC4D3K4BlnXcCYFHyYhKwftmS1wH/K91Bm5TBFEp90wK2DiwGCEDntO6MQ==
   dependencies:
     bluebird "^3.5.2"
     camel-case "^3.0.0"
@@ -1609,9 +1609,9 @@ iconv-lite@^0.4.24, iconv-lite@^0.4.4:
     safer-buffer ">= 2.1.2 < 3"
 
 ignore-walk@^3.0.1:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/ignore-walk/-/ignore-walk-3.0.2.tgz#99d83a246c196ea5c93ef9315ad7b0819c35069b"
-  integrity sha512-EXyErtpHbn75ZTsOADsfx6J/FPo6/5cjev46PXrcTpd8z3BoRkXgYu9/JVqrI7tusjmwCZutGeRJeU0Wo1e4Cw==
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/ignore-walk/-/ignore-walk-3.0.3.tgz#017e2447184bfeade7c238e4aefdd1e8f95b1e37"
+  integrity sha512-m7o6xuOaT1aqheYHKf8W6J5pYH85ZI9w077erOzLje3JsB1gkafkAhHHY19dqjulgIZHFm32Cp5uNZgcQqdJKw==
   dependencies:
     minimatch "^3.0.4"
 
@@ -2367,9 +2367,9 @@ npm-bundled@^1.0.1:
   integrity sha512-8/JCaftHwbd//k6y2rEWp6k1wxVfpFzB6t1p825+cUb7Ym2XQfhwIC5KwhrvzZRJu+LtDE585zVaS32+CGtf0g==
 
 npm-packlist@^1.1.6:
-  version "1.4.4"
-  resolved "https://registry.yarnpkg.com/npm-packlist/-/npm-packlist-1.4.4.tgz#866224233850ac534b63d1a6e76050092b5d2f44"
-  integrity sha512-zTLo8UcVYtDU3gdeaFu2Xu0n0EvelfHDGuqtNIn5RO7yQj4H1TqNdBc/yZjxnWA0PVB8D3Woyp0i5B43JwQ6Vw==
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/npm-packlist/-/npm-packlist-1.4.6.tgz#53ba3ed11f8523079f1457376dd379ee4ea42ff4"
+  integrity sha512-u65uQdb+qwtGvEJh/DgQgW1Xg7sqeNbmxYyrvlNznaVTjV3E5P6F/EFjM+BVHXl7JJlsdG8A64M0XI8FI/IOlg==
   dependencies:
     ignore-walk "^3.0.1"
     npm-bundled "^1.0.1"
@@ -2899,10 +2899,22 @@ shebang-command@^1.2.0:
   dependencies:
     shebang-regex "^1.0.0"
 
+shebang-command@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-2.0.0.tgz#ccd0af4f8835fbdc265b82461aaf0c36663f34ea"
+  integrity sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==
+  dependencies:
+    shebang-regex "^3.0.0"
+
 shebang-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
   integrity sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
+
+shebang-regex@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
+  integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
@@ -3364,6 +3376,13 @@ which@^1.2.9:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/which/-/which-1.3.1.tgz#a45043d54f5805316da8d62f9f50918d3da70b0a"
   integrity sha512-HxJdYWq1MTIQbJ3nw0cqssHoTNU267KlrDuGZ1WYlxDStUtKUhOaJmh112/TZmHxxUfuJqPXSOm7tDyas0OSIQ==
+  dependencies:
+    isexe "^2.0.0"
+
+which@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/which/-/which-2.0.1.tgz#f1cf94d07a8e571b6ff006aeb91d0300c47ef0a4"
+  integrity sha512-N7GBZOTswtB9lkQBZA4+zAXrjEIWAUOB93AvzUiudRzRxhUdLURQ7D/gAIMY1gatT/LTbmbcv8SiYazy3eYB7w==
   dependencies:
     isexe "^2.0.0"
 
