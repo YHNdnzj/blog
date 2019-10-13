@@ -1,7 +1,7 @@
 ---
 title: 使用 Telegram 收發 WeChat 訊息
 date: 2019-05-24 13:09:25
-updated: 2019-09-14 10:27:37
+updated: 2019-10-13 01:47:28
 tags: 
 - EFB
 thumbnail: /img/thumbnails/efb.webp
@@ -71,7 +71,6 @@ ExecStart=/usr/bin/python3 -m ehforwarderbot -p %i
 Environment=EFB_DATA_PATH=/etc/ehforwarderbot LANGUAGE=zh_CN.UTF-8 LC_ALL=zh_CN.UTF-8 LC_MESSAGES=zh_CN.UTF-8 LANG=zh_CN.UTF-8
 TimeoutStopSec=10
 Restart=on-failure
-KillSignal=SIGINT
 
 [Install]
 WantedBy=multi-user.target
