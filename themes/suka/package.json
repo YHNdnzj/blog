@@ -25,7 +25,7 @@
   "homepage": "https://github.com/SukkaW/hexo-theme-suka#readme",
   "devDependencies": {
     "ejs-lint": "0.3.0",
-    "eslint": "6.6.0",
+    "eslint": "6.5.1",
     "gulp": "4.0.2",
     "gulp-autoprefixer": "7.0.1",
     "gulp-clean-css": "4.2.0",
@@ -34,7 +34,6 @@
     "sass-lint": "1.13.1"
   },
   "dependencies": {
-    "json-stringify-safe": "5.0.1",
     "node-prismjs": "0.1.2",
     "prismjs": "1.17.1",
     "qr-image": "3.2.0"
