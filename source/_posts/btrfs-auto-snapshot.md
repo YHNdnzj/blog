@@ -22,13 +22,15 @@ thumbnail: /img/thumbnails/btrfs.webp
 /etc/btrfs-snapshot/root.conf
 
 # vim:set ft=sh
-subvol=/
-dest=/.snapshot/root
-nkeep=10
+SUBVOL=/
+DEST=/.snapshot/root
+NKEEP=10
 ```
 
 ### 啓動 Timer
 
 `# systemctl enable --now btrfs-snapshot.timer`
 
+或
 
+`# systemctl enable --now btrfs-snapshot@root.timer`
