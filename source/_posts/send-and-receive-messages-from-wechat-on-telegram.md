@@ -1,7 +1,7 @@
 ---
 title: 使用 Telegram 收發 WeChat 訊息
 date: 2019-05-24 13:09:25
-updated: 2019-10-13 01:47:28
+updated: 2019-11-24 04:27:52
 tags: 
 - EFB
 thumbnail: /img/thumbnails/efb.webp
@@ -64,6 +64,8 @@ admins:
 [Unit]
 Description=EFB instance for profile %i
 Documentation=https://github.com/blueset/ehForwarderBot
+Wants=network-online.target
+After=network-online.target
 
 [Service]
 PrivateTmp=true

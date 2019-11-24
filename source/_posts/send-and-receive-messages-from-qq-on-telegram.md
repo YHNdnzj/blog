@@ -1,7 +1,7 @@
 ---
 title: 使用 Telegram 收發 QQ 訊息
 date: 2019-05-26 03:54:31
-updated: 2019-10-13 01:47:17
+updated: 2019-11-24 04:28:30
 tags: 
 - EFB
 thumbnail: /img/thumbnails/efb.webp
@@ -82,6 +82,8 @@ CoolQ:
 [Unit]
 Description=EFB instance for profile %i
 Documentation=https://github.com/blueset/ehForwarderBot
+Wants=network-online.target
+After=network-online.target
 
 [Service]
 PrivateTmp=true
