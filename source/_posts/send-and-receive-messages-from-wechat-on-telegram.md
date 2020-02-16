@@ -4,7 +4,7 @@ date: 2019-05-24 13:09:25
 updated: 2019-11-24 04:27:52
 tags: 
 - EFB
-thumbnail: /img/thumbnails/efb.webp
+thumbnail: /2019/05/24/send-and-receive-messages-from-wechat-on-telegram/thumbnail.webp
 ---
 
 > 本教學使用 [EFB](https://github.com/blueset/ehForwarderBot), [ETM](https://github.com/blueset/efb-telegram-master), [EWS](https://github.com/blueset/efb-wechat-slave) 和 systemd 守護行程，支援 Ubuntu >= 18.04 & Debian >= 10
