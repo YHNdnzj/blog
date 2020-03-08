@@ -2,8 +2,8 @@
 title: 修復 NetworkManager-wait-online 導致的 network-online.target active 過早
 date: 2020-02-17 02:50:36
 tags:
-  - Linux
-  - systemd
+- Linux
+- systemd
 ---
 
 systemd 有個 `network-online.target`，許多程式會依賴它以在網路連線成功後纔啓動。但如果使用 NetworkManager 提供的 `NetworkManager-wait-online.service`，會導致某些程式啓動過早，如 shadowsocks-libev 使用域名作爲伺服器地址時報錯 `Temporary failure in name resolution`。

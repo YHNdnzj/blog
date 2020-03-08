@@ -5,6 +5,7 @@ updated: 2019-10-13 01:48:52
 tags: 
 - Linux
 - Btrfs
+- systemd
 thumbnail: /2019/09/13/btrfs-auto-snapshot/thumbnail.webp
 ---
 

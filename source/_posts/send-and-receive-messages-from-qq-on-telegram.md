@@ -4,6 +4,8 @@ date: 2019-05-26 03:54:31
 updated: 2019-11-24 04:28:30
 tags: 
 - EFB
+- Linux
+- systemd
 thumbnail: /2019/05/24/send-and-receive-messages-from-wechat-on-telegram/thumbnail.webp
 ---
 
