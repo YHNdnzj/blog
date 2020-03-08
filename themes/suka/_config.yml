@@ -98,7 +98,7 @@ nav:
     use: true
   search:
     use: true
-    link: /search
+    link: /search/
   pages:
     标签:
       link: /tags/
