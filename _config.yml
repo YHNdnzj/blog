@@ -112,7 +112,7 @@ deploy:
 
 suka_theme:
   search:
-    enable: true
+    enable: false
     path: search.json
     field: post # Page | Post | All. Default post
   prism:

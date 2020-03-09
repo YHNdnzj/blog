@@ -282,7 +282,7 @@ valine_counter:
 # Available value of "use":
 #     local | google | swiftype
 search:
-  use: local
+  use: google
   # Swiftype
   swiftype_key:
 
