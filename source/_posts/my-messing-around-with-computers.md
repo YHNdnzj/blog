@@ -1,7 +1,7 @@
 ---
 title: 我的計算機折騰史
 date: 2020-03-08 09:53:03
-updated: 2020-03-08 10:23:41
+updated: 2020-03-09 01:14:51
 tags:
 - Linux
 ---
@@ -24,7 +24,7 @@ tags:
 
 初一上學期，我加入了 Telegram。在 VPS 上搭建了 ehForwarderBot 和 ownCloud. 下學期，在嘗試過 Fedora 後，換到了 Arch Linux（其實當時應該聽說過 Manjaro，但還是直接裝了 Arch~~（最正確的選擇~~。接觸 Cloudflare 和 GCP，搭建了 LAMP 環境（當時一直在折騰 HSTS 和 PHP），WordPress (Blog)~~（裏面全是黑歷史）~~，註冊域名 yhndnzj.com.
 
-初二上學期，加入了 ArchCN 羣組但不怎麼發言。棄用了 WordPress. 購買了 Raspberry Pi 3B+，搭建了 Gitee 和 NextCloud~~（現在在吃灰（~~。購買了 CN2 GIA 的 VPS，同樣使用 Arch Linux. 下學期，使用 Hexo 重建了 Blog，同時在桌電上重裝了 Arch Linux，正式（？）加入了 ArchCN 羣。認識了 OriginCode, fc 老師等大佬。
+初二上學期，加入了 ArchCN 羣組但不怎麼發言。棄用了 WordPress. 購買了 Raspberry Pi 3B+，搭建了 Gitee 和 NextCloud~~（現在在吃灰（~~。購買了 CN2 GIA 的 VPS，同樣使用 Arch Linux. 下學期，使用 Hexo 重建了 Blog，同時在桌電上重裝了 Arch Linux，正式（？）加入了 ArchCN 羣。認識了 OriginCode, fc 老師等大佬。K20 Pro 刷入 Pixel Experience 養老。
 
 ![VPS](my-messing-around-with-computers/arch-vps.png)
 
