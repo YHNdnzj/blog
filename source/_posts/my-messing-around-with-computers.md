@@ -20,9 +20,9 @@ tags:
 
 五年級，第一次嘗試編譯 AOSP，接觸了 Zsh，rEFInd（然而後面全部棄用了，分別換成了 Fish 和 systemd-boot）。
 
-六年級，購買了第一臺 VPS，搭建了 Shadowsocks Server 和測試用的 WordPress. 學習了一點 Java（現在已經全忘了）。註冊了現在用的 Google Account，購買了 OG Google Pixel. 爲了使用 FCM-for-Mojo 寫了第一個 systemd service（不過是放到 `/lib/systemd/system`……）
+六年級，購買了第一臺 VPS，~~使用 CentOS~~ 搭建了 Shadowsocks Server 和測試用的 WordPress. 學習了一點 Java（現在已經全忘了）。註冊了現在用的 Google Account，購買了 OG Google Pixel. 爲了使用 FCM-for-Mojo 寫了第一個 systemd service（不過是放到 `/lib/systemd/system`……）
 
-初一上學期，我加入了 Telegram。在 VPS 上搭建了 ehForwarderBot 和 ownCloud. 下學期，在嘗試過 Fedora 後，換到了 Arch Linux（其實當時應該聽說過 Manjaro，但還是直接裝了 Arch~~（最正確的選擇~~。一開始用的是 GNOME, 很快換成了 KDE. 接觸 Cloudflare 和 GCP，搭建了 LAMP 環境（當時一直在折騰 HSTS 和 PHP），WordPress (Blog)~~（裏面全是黑歷史）~~，註冊域名 yhndnzj.com.
+初一上學期，我加入了 Telegram。在編譯升級 CentOS 的 glibc 時，不小心刪除了 libc.so.6, 只好重裝系統，換成了 Ubuntu（。 在 VPS 上搭建了 ehForwarderBot 和 ownCloud. 下學期，在嘗試過 Fedora 後，換到了 Arch Linux（其實當時應該聽說過 Manjaro，但還是直接裝了 Arch~~（最正確的選擇~~。一開始用的是 GNOME, 很快換成了 KDE. 接觸 Cloudflare 和 GCP，搭建了 LAMP 環境（當時一直在折騰 HSTS 和 PHP），WordPress (Blog)~~（裏面全是黑歷史）~~，註冊域名 yhndnzj.com.
 
 初二上學期，加入了 ArchCN 羣組但不怎麼發言。棄用了 WordPress. 購買了 Raspberry Pi 3B+，搭建了 Gitee 和 NextCloud~~（現在在吃灰（~~。購買了 CN2 GIA 的 VPS，同樣使用 Arch Linux. 下學期，使用 Hexo 重建了 Blog，同時在桌電上重裝了 Arch Linux，正式（？）加入了 ArchCN 羣。認識了 OriginCode, fc 老師等大佬。K20 Pro 刷入 Pixel Experience 養老。
 
