@@ -1,7 +1,7 @@
 ---
 title: 使用 Telegram 收發 QQ 訊息
 date: 2019-05-26 03:54:31
-updated: 2019-11-24 04:28:30
+updated: 2020-03-14 12:52:56
 tags: 
 - EFB
 - Linux
@@ -19,7 +19,7 @@ thumbnail: /2019/05/24/send-and-receive-messages-from-wechat-on-telegram/thumbna
 
 ### 二進制依賴
 
-`# apt -y install python3-pip python3-wheel ffmpeg libmagic1 libwebp6`
+`# apt install -y python3-pip python3-wheel ffmpeg libmagic1 libwebp6`
 
 ### 主體
 
@@ -90,7 +90,7 @@ After=network-online.target
 [Service]
 PrivateTmp=true
 ExecStart=/usr/bin/python3 -m ehforwarderbot -p %i
-Environment=EFB_DATA_PATH=/etc/ehforwarderbot LANGUAGE=zh_CN.UTF-8 LC_ALL=zh_CN.UTF-8 LC_MESSAGES=zh_CN.UTF-8 LANG=zh_CN.UTF-8
+Environment=EFB_DATA_PATH=/etc/ehforwarderbot LANG=zh_CN.UTF-8
 TimeoutStopSec=10
 Restart=on-failure
 
