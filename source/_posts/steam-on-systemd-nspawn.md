@@ -1,7 +1,7 @@
 ---
 title: 在 systemd-nspawn 上運行 Steam
 date: 2020-03-16 09:58:23
-updated: 2020-03-16 09:58:23
+updated: 2020-03-19 02:32:11
 tags:
 - Linux
 - systemd
@@ -21,7 +21,11 @@ thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_
 
 ## 配置 Container
 
-編輯 `arch-nspawn/etc/securetty`，加入 `pts/0` 至 `pts/9`.
+### 允許訪問 getty
+
+編輯 `/var/lib/machines/arch-nspawn/etc/securetty`，加入 `pts/0` 至 `pts/9`.
+
+### 掛載需要的 Device file 和 Socket
 
 ```ini
 # cat /etc/systemd/nspawn/arch-nspawn.nspawn
@@ -59,16 +63,21 @@ VirtualEthernet=no
 
 ```ini
 [Service]
+# GPU
 DeviceAllow=/dev/dri rw
+
+# NVIDIA
 DeviceAllow=/dev/nvidia0 rw
 DeviceAllow=/dev/nvidiactl rw
 DeviceAllow=/dev/nvidia-modeset rw
 DeviceAllow=/dev/shm rw
+
+# Controller
 DeviceAllow=char-usb_device rwm
 DeviceAllow=char-input rwm
 ```
 
-要允許 Container 連接 X Server，使用 xhost 開放權限：
+### 允許連接 X Server
 
 `$ xhost +local:`
 
@@ -85,7 +94,7 @@ DeviceAllow=char-input rwm
 
 `# pacman -S --assume-installed pulseaudio pulseaudio-alsa`
 
-建立一個新的使用者，注意要與 host 運行 DBus, PulseAudio 的 UID 相同。
+建立一個新的使用者，注意要與 Host 運行 D-Bus, PulseAudio 的 UID 相同。
 
 此時應該可以啓動 Steam 了：
 
