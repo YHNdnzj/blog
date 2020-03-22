@@ -1,7 +1,7 @@
 ---
 title: Btrfs 自動創建 Snapshot
 date: 2019-09-13 16:28:17
-updated: 2019-10-13 01:48:52
+updated: 2020-03-22 06:18:35
 tags: 
 - Linux
 - Btrfs
@@ -22,7 +22,7 @@ thumbnail: /2019/09/13/btrfs-auto-snapshot/thumbnail.webp
 ```bash
 /etc/btrfs-snapshot/root.conf
 
-# vim:set ft=sh
+# vim: set ft=sh:
 SUBVOL=/
 DEST=/.snapshot/root
 NKEEP=10
