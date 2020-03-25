@@ -1,7 +1,7 @@
 ---
 title: 在 systemd-nspawn 上運行 Steam
 date: 2020-03-16 09:58:23
-updated: 2020-03-19 02:32:11
+updated: 2020-03-25 15:46:11
 tags:
 - Linux
 - systemd
@@ -50,10 +50,10 @@ Bind=/dev/shm
 Bind=/dev/input
 
 # PulseAudio
-Bind=/run/user/$UID/pulse
+BindReadOnly=/run/user/$UID/pulse
 
 # AppIndicator
-Bind=/run/user/$UID/bus
+BindReadOnly=/run/user/$UID/bus
 
 [Network]
 VirtualEthernet=no
