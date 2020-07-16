@@ -12,7 +12,7 @@ thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_
 
 ## 創建 Container
 
-```
+```console
 # pacman -Syu arch-install-scripts
 # cd /var/lib/machines
 # mkdir arch-nspawn
@@ -83,7 +83,7 @@ DeviceAllow=char-input rwm
 
 ## 配置 Steam
 
-```
+```console
 # machinectl start arch-nspawn
 # machinectl login arch-nspawn
 ```
