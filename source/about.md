@@ -1,7 +1,7 @@
 ---
 title: 关于
 date: 2019-05-24
-updated: 2019-09-06 14:21:06
+updated: 2020-08-02 22:56:14
 permalink: /about/
 ---
 
@@ -9,7 +9,7 @@ permalink: /about/
 
 我是 YHNdnzj
 
-初~~二~~三狗
+高一學生
 
 常年混跡於 Telegram
 
