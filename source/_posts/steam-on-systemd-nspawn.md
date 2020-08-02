@@ -1,7 +1,7 @@
 ---
 title: 在 systemd-nspawn 上運行 Steam
 date: 2020-03-16 09:58:23
-updated: 2020-08-02 12:47:46
+updated: 2020-08-02 14:15:33
 tags:
 - Linux
 - systemd
@@ -89,7 +89,7 @@ DeviceAllow=char-input rwm
 # machinectl login arch-nspawn
 ```
 
-以 root 登入，安裝 [Steam](https://wiki.archlinux.org/index.php/Steam#Installation) 和 [OpenGL 驅動](https://wiki.archlinux.org/index.php/Xorg#Driver_installation)。
+以 root 登入，安裝 [Steam](https://wiki.archlinux.org/index.php/Steam#Installation), [OpenGL](https://wiki.archlinux.org/index.php/Xorg#Driver_installation) 和 [Vulkan 驅動](https://wiki.archlinux.org/index.php/Vulkan#Installation)。
 
 由於某些程式直接使用 ALSA，需要安裝 `pulseaudio-alsa`. 但其依賴 `pulseaudio`，於是使用 pacman 的 `--assume-installed` 選項跳過。
 
