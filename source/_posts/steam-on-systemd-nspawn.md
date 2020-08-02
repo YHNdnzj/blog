@@ -1,7 +1,7 @@
 ---
 title: 在 systemd-nspawn 上運行 Steam
 date: 2020-03-16 09:58:23
-updated: 2020-03-25 15:46:11
+updated: 2020-08-02 12:47:46
 tags:
 - Linux
 - systemd
@@ -65,6 +65,7 @@ VirtualEthernet=no
 [Service]
 # GPU
 DeviceAllow=/dev/dri rw
+DeviceAllow=char-drm rwm
 
 # NVIDIA
 DeviceAllow=/dev/nvidia0 rw
