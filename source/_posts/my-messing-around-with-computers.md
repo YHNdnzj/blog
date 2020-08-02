@@ -26,13 +26,13 @@ tags:
 
 初二上學期，加入了 ArchCN 羣組但不怎麼發言。棄用了 WordPress. 購買了 Raspberry Pi 3B+，搭建了 Gitee 和 NextCloud~~（現在在吃灰（~~。購買了 CN2 GIA 的 VPS，同樣使用 Arch Linux. 下學期，使用 Hexo 重建了 Blog，同時在桌電上重裝了 Arch Linux，正式（？）加入了 ArchCN 羣。認識了 OriginCode, fc 老師等大佬。K20 Pro 刷入 Pixel Experience 養老。
 
-![VPS](my-messing-around-with-computers/arch-vps.png)
+![VPS](my-messing-around-with-computers/arch-vps.webp)
 
-![桌電](my-messing-around-with-computers/arch-desktop.png)
+![桌電](my-messing-around-with-computers/arch-desktop.webp)
 
 初三上學期，嘗試了一下 Gentoo，可能還是不適合我吧，很快就刪除了。隨後將 SNB 平臺的那臺電腦作爲了伺服器，並將 EFB 遷移到了上面。
 
-![伺服器](my-messing-around-with-computers/arch-server.png)
+![伺服器](my-messing-around-with-computers/arch-server.webp)
 
 其他使用過的 Linux 發行版：CentOS, Debian, Ubuntu MATE, Linux Mint~~, CDLinux~~
 

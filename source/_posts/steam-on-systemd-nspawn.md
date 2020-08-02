@@ -5,7 +5,7 @@ updated: 2020-08-02 14:15:33
 tags:
 - Linux
 - systemd
-thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/1920px-Steam_icon_logo.svg.png
+thumbnail: /2020/03/16/steam-on-systemd-nspawn/thumbnail.webp
 ---
 
 > Steam 依賴許多 32-bit lib，鑑於此我沒有在 host 使用 pacman 安裝它。flatpak 等第三方包管理器由於潔癖，同樣沒有考慮。此時，systemd-nspawn 便成爲了很好的選擇。
