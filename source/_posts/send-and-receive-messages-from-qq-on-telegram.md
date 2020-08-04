@@ -1,7 +1,7 @@
 ---
 title: 使用 Telegram 收發 QQ 訊息
 date: 2019-05-26 03:54:31
-updated: 2020-03-14 12:52:56
+updated: 2020-08-05 00:06:33
 tags: 
 - EFB
 - Linux
@@ -9,9 +9,10 @@ tags:
 thumbnail: /2019/05/24/send-and-receive-messages-from-wechat-on-telegram/thumbnail.webp
 ---
 
-> 本教學使用 [EFB](https://github.com/blueset/ehForwarderBot), [ETM](https://github.com/blueset/efb-telegram-master), [EQS](https://github.com/milkice233/efb-qq-slave) 和 systemd 守護行程，支援 Ubuntu >= 18.04 & Debian >= 10
+> 2020/08/02: 由於 CoolQ 停止服務，此教學已經無法使用
 >
 > <!-- more -->
+> 本教學使用 [EFB](https://github.com/blueset/ehForwarderBot), [ETM](https://github.com/blueset/efb-telegram-master), [EQS](https://github.com/milkice233/efb-qq-slave) 和 systemd 守護行程，支援 Ubuntu >= 18.04 & Debian >= 10
 
 ## 安裝
 
