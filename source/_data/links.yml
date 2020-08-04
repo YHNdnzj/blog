@@ -13,48 +13,20 @@ Justf Channel:
   img: https://channel.justf.space/css/images/logo.png
   text: "幸福如人饮水，冷暖自知。"
 
-# 天空之边:
-  # url: https://liyin.date
-  # img: https://liyin.date/myfiles/images/logo.png
-  # text: "用心探知天空的边界"
+天空之边:
+  url: https://liyin.date
+  img: https://liyin.date/myfiles/images/logo.png
+  text: "用心探知天空的边界"
 
-Yuuta 的折腾 oo:
+YuutaW 的自言语:
   url: https://blog.yuuta.moe
   img: https://i.loli.net/2017/09/17/59be75c136a7f.jpg
-
-超能小紫:
-  url: https://www.mokeyjay.com
-  img: https://www.mokeyjay.com/wp-content/uploads/2017/04/2017040608512197.jpg
-  text: "Web全沾 // 专业学渣 // 贰刺猿 // 永远还不完信用卡"
-
-星尘独奏曲:
-  url: https://www.starduster.me
-  img: https://www.starduster.me/wp-content/uploads/2015/08/gravator.png
-  text: "感谢所有过去的时光"
+  text: "一个伪技术宅的垃圾堆"
 
 1A23 Studio:
   url: https://1a23.com
   img: https://1a23.com/wp-content/uploads/2019/09/logo4square.svg
   text: "We create."
-
-JerryQu 的小站:
-  url: https://imququ.com
-  img: https://st.imququ.com/static/img/blog/icon.png
-  text: "专注 WEB 端开发"
-
-KK 的博客:
-  url: https://ikk.me
-  img: https://diygod.me/images/link/kk.jpg
-  text: "code just like a piece of shit."
-
-烧饼博客:
-  url: https://sb.sb/blog/
-  img: https://cdn.loli.net/sb.sb.sb/favicon/apple-touch-icon.png
-
-维基萌:
-  url: https://www.wikimoe.com
-  img: https://www.gravatar.com/avatar/fbb31d99a24cf9a56c48b44dd0797d22?s=400&d=mm&r=g
-  text: "萌即是正义！一名热爱acg的前端设计师的小站！"
 
 Hi, DIYgod:
   url: https://diygod.me
@@ -65,11 +37,6 @@ Milkice's IceBox:
   url: https://milkice.me
   img: https://i.loli.net/2019/05/19/5ce1462a86b9d39837.jpg
   text: "Maybe a way to explore the world?"
-
-零件's Blog:
-  url: https://nekosc.com
-  img: https://nekosc.com/usr/themes/Material/image/avatar.jpg
-  text: "Tech Otakus Save The World"
 
 约伊兹的萌狼乡手札:
   url: https://blog.yoitsu.moe
