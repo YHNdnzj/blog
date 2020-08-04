@@ -7,6 +7,7 @@ tags:
 - systemd
 ---
 
+> <!-- more -->
 systemd 有個 `network-online.target`，許多程式會依賴它以在網路連線成功後纔啓動。但如果使用 NetworkManager 提供的 `NetworkManager-wait-online.service`，會導致某些程式啓動過早，如 shadowsocks-libev 使用域名作爲伺服器地址時報錯 `Temporary failure in name resolution`。
 
 在換用[百合仙子](https://blog.lilydjwg.me/)寫的 [wait-online](https://github.com/lilydjwg/wait-online) 後，問題消失。日誌中可以看到 shadowsocks-libev 確實在 `network-online.target` active 後纔啓動。於是查看 `NetworkManager-wait-online.service`：
