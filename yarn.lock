@@ -509,9 +509,9 @@ has-flag@^4.0.0:
   integrity sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
 
 hexo-asset-link@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/hexo-asset-link/-/hexo-asset-link-2.0.1.tgz#efcfdddb714ae370e6772365a85b641d89e6d3ad"
-  integrity sha512-0O6sdoLceh9KVG0e8PwK5PLokzGlTl7q8b2QgGaAECIbCjZRDv1pPEMaizHbD4jRXhC+i/U6x04kgQZoTHHClw==
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/hexo-asset-link/-/hexo-asset-link-2.0.2.tgz#2fe3417aa0df4f5069eeaef313072e753ca75a59"
+  integrity sha512-mcVwd6n+9u92w3N7m097Sp+bONQUbhLVu5bolCQCl03JFMWtQreqxlAHS7iRFZm1PWo6b30z3318UoAjbdcJLA==
 
 hexo-cli@^4.0.0:
   version "4.2.0"
