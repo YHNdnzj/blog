@@ -109,7 +109,7 @@ feed:
   limit: 20
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
+## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
   repo: https://GH_TOKEN@github.com/YHNdnzj/yhndnzj.github.io.git
