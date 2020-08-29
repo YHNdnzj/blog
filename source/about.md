@@ -1,4 +1,5 @@
 ---
 title: 关于
-permalink: https://yhn.sh
+permalink: /about/
+redirect: https://yhn.sh
 ---
