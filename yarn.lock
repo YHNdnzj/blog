@@ -574,10 +574,11 @@ hexo-fs@^3.0.1, hexo-fs@^3.1.0:
     graceful-fs "^4.1.11"
     hexo-util "^2.0.0"
 
-hexo-generator-alias@^0.1.3:
+"hexo-generator-alias@https://github.com/hexojs/hexo-generator-alias.git#master":
   version "0.1.3"
-  resolved "https://registry.yarnpkg.com/hexo-generator-alias/-/hexo-generator-alias-0.1.3.tgz#ee135bd39fe2eda3ec661f382d5c44a6a8e3e647"
-  integrity sha1-7hNb05/i7aPsZh84LVxEpqjj5kc=
+  resolved "https://github.com/hexojs/hexo-generator-alias.git#8352d2fd055804bcb673a2f8570628f65ff2c9a9"
+  dependencies:
+    hexo-util "^2.4.0"
 
 hexo-generator-archive@^1.0.0:
   version "1.0.0"
