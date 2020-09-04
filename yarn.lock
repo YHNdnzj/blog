@@ -575,8 +575,8 @@ hexo-fs@^3.0.1, hexo-fs@^3.1.0:
     hexo-util "^2.0.0"
 
 "hexo-generator-alias@https://github.com/hexojs/hexo-generator-alias.git#master":
-  version "0.1.3"
-  resolved "https://github.com/hexojs/hexo-generator-alias.git#e154e9e70caa8bad68259a396202df67ee696060"
+  version "1.0.0"
+  resolved "https://github.com/hexojs/hexo-generator-alias.git#1e95a25403301b66b8772de4a2cc61f5c44f99a9"
   dependencies:
     hexo-util "^2.4.0"
 
@@ -653,9 +653,9 @@ hexo-renderer-ejs@^1.0.0:
     ejs "^2.6.1"
 
 hexo-renderer-marked@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-3.1.0.tgz#ff9c27c13bd2b2fad8bc689c50cdcae08fa3b6c7"
-  integrity sha512-IehIoXFNs2iRnP5v4/8QRRgqZ139Sj6w++YzrYVIVVZ2FTiXMGjxHjpCyy5QW8EADGapK3YUFSWyo5kWGmDQSg==
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-3.2.0.tgz#a5e18b4d69b61706142427d12c4c542461e7ffa2"
+  integrity sha512-p1ICjucz9VOIbSmK198BQBEYnSyF/Z5pNh0u7PmvZihfJZL2V4iyF/G88BBvwDCCVJG2oYsgLam6nmn8JnishQ==
   dependencies:
     hexo-util "^2.1.0"
     marked "^1.0.0"
