@@ -301,11 +301,11 @@ cuid@^2.1.4:
   integrity sha512-xiEMER6E7TlTPnDxrM4eRiC6TRgjNX9xzEZ5U/Se2YJKr7Mq4pJn/2XEHjl3STcSh96GmkHPcBXLES8M29wyyg==
 
 debug@*:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
-  integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.2.0.tgz#7f150f93920e94c58f5574c2fd01a3110effe7f1"
+  integrity sha512-IX2ncY78vDTjZMFUdmsvIRFY2Cf4FnD0wRs+nQwJU8Lu99/tPFdb0VybiiMTPe3I6rQmwsqQqRBvxU+bZ/I8sg==
   dependencies:
-    ms "^2.1.1"
+    ms "2.1.2"
 
 debug@2.6.9:
   version "2.6.9"
@@ -357,18 +357,18 @@ destroy@~1.0.4:
   integrity sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=
 
 dom-serializer@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-1.0.1.tgz#79695eb49af3cd8abc8d93a73da382deb1ca0795"
-  integrity sha512-1Aj1Qy3YLbdslkI75QEOfdp9TkQ3o8LRISAzxOibjBs/xWwr1WxZFOQphFkZuepHFGo+kB8e5FVJSS0faAJ4Rw==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-1.1.0.tgz#5f7c828f1bfc44887dc2a315ab5c45691d544b58"
+  integrity sha512-ox7bvGXt2n+uLWtCRLybYx60IrOlWL/aCebWJk1T0d4m3y2tzf4U3ij9wBMUb6YJZpz06HCCYuyCDveE2xXmzQ==
   dependencies:
     domelementtype "^2.0.1"
     domhandler "^3.0.0"
     entities "^2.0.0"
 
 domelementtype@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-2.0.1.tgz#1f8bdfe91f5a78063274e803b4bdcedf6e94f94d"
-  integrity sha512-5HOHUDsYZWV8FGWN0Njbr/Rn7f/eWSQi1v7+HsUVwXgn8nWWlL64zKDkS0n8ZmQ3mlWOMuXOnR+7Nx/5tMO5AQ==
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-2.0.2.tgz#f3b6e549201e46f588b59463dd77187131fe6971"
+  integrity sha512-wFwTwCVebUrMgGeAwRL/NhZtHAUyT9n9yg4IMDwf10+6iCMxSkVq9MGCVEH+QZWo1nNidy8kNvwmv4zWHDTqvA==
 
 domhandler@^3.0.0:
   version "3.0.0"
@@ -378,9 +378,9 @@ domhandler@^3.0.0:
     domelementtype "^2.0.1"
 
 domutils@^2.0.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/domutils/-/domutils-2.2.0.tgz#f3ce1610af5c30280bde1b71f84b018b958f32cf"
-  integrity sha512-0haAxVr1PR0SqYwCH7mxMpHZUwjih9oPPedqpR/KufsnxPyZ9dyVw1R5093qnJF3WXSbjBkdzRWLw/knJV/fAg==
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/domutils/-/domutils-2.3.0.tgz#6469c63a3da2de0c3016f3a59e6a969e10705bce"
+  integrity sha512-xWC75PM3QF6MjE5e58OzwTX0B/rPQnlqH0YyXB/c056RtVJA+eu60da2I/bdnEHzEYC00g8QaZUlAbqOZVbOsw==
   dependencies:
     dom-serializer "^1.0.1"
     domelementtype "^2.0.1"
@@ -714,9 +714,9 @@ hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.4.0:
     striptags "^3.1.1"
 
 hexo@^5.0.0:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/hexo/-/hexo-5.1.1.tgz#5cbd979acce5d3915919688d8d6a8c3de3e93fda"
-  integrity sha512-D+kf3NJ0WTBwyrEZdcgjsVVsSG4/cnKmixbsnCr1dPwI6d7BBJtFprv7usU7u3sV59+LrOYtPuJKsHaaINffvA==
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/hexo/-/hexo-5.2.0.tgz#cf8b2e3df3ba29805a17d96145ad41b38432a8e5"
+  integrity sha512-lX4OqpZv+AGANHHyxmlXdlU5hDiJyPDqEBdRwtIo5BLp86RsCi/xlTtkdVV0fRi1uRjtLc9vwXf7LVjAd/l45g==
   dependencies:
     abbrev "^1.1.1"
     archy "^1.0.0"
@@ -950,9 +950,9 @@ moment-timezone@^0.5.21:
     moment ">= 2.9.0"
 
 "moment@>= 2.9.0", moment@^2.18.0, moment@^2.22.2:
-  version "2.27.0"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.27.0.tgz#8bff4e3e26a236220dfe3e36de756b6ebaa0105d"
-  integrity sha512-al0MUK7cpIcglMv3YF13qSgdAIqxHTO7brRtaz3DlSULbqfazqkc5kEjNrLDOM7fsjshoFIihnU8snrP7zUvhQ==
+  version "2.28.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.28.0.tgz#cdfe73ce01327cee6537b0fafac2e0f21a237d75"
+  integrity sha512-Z5KOjYmnHyd/ukynmFd/WwyXHd7L4J9vTI/nn5Ap9AVUgaAE15VvQ9MOGmJJygEUklupqIrFnor/tjTwRU+tQw==
 
 morgan@^1.9.1:
   version "1.10.0"
@@ -975,7 +975,7 @@ ms@2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
   integrity sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
 
-ms@^2.1.1:
+ms@2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
