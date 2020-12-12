@@ -4,6 +4,7 @@ date: 2020-12-12 16:40:13
 updated: 2020-12-12 16:40:13
 tags:
 - Real life
+thumbnail: /2020/12/12/iphone-12-experience/thumbnail.webp
 ---
 
 自從二年級第一次接觸 Android 智能手機以來，我便毫不猶豫地「站隊」了 Android 陣營。雖然許多身邊的人都在用 iPhone，我卻堅持讓自己和父母不用 Apple 產品。結果，最先打破原則的，是一個月前的我（
