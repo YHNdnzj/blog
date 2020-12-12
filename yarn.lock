@@ -379,9 +379,9 @@ domhandler@^4.0.0:
     domelementtype "^2.1.0"
 
 domutils@^2.0.0:
-  version "2.4.3"
-  resolved "https://registry.yarnpkg.com/domutils/-/domutils-2.4.3.tgz#b8ca888695db9baf65b58462c0eff46d2d5cd85d"
-  integrity sha512-MDMfEjgtzHvRX7i21XQfkk/vfZbLOe0VJk8dDETkTTo3BTeH3NXz3Xvs94UQ+GzTw/GjRYKsfVKIIOheYX63fw==
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/domutils/-/domutils-2.4.4.tgz#282739c4b150d022d34699797369aad8d19bbbd3"
+  integrity sha512-jBC0vOsECI4OMdD0GC9mGn7NXPLb+Qt6KW1YDQzeQYRUFKmNG8lh7mO5HiELfr+lLQE7loDVI4QcAxV80HS+RA==
   dependencies:
     dom-serializer "^1.0.1"
     domelementtype "^2.0.1"
@@ -857,9 +857,9 @@ isexe@^2.0.0:
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
 
 js-yaml@^3.12.0, js-yaml@^3.13.1:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.14.0.tgz#a7a34170f26a21bb162424d8adacb4113a69e482"
-  integrity sha512-/4IbIeHcD9VMHFqDR/gQ7EdZdLimOvW2DdcxFjdyyZ9NsbS+ccrXqVWDtab/lRl5AlUqmpBx8EhPaWR+OtY17A==
+  version "3.14.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.14.1.tgz#dae812fdb3825fa306609a8717383c50c36a0537"
+  integrity sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
@@ -894,9 +894,9 @@ lower-case@^2.0.2:
     tslib "^2.0.3"
 
 marked@^1.0.0:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-1.2.5.tgz#a44b31f2a0b8b5bfd610f00d55d1952d1ac1dfdb"
-  integrity sha512-2AlqgYnVPOc9WDyWu7S5DJaEZsfk6dNh/neatQ3IHUW4QLutM/VPSH9lG7bif+XjFWc9K9XR3QvR+fXuECmfdA==
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-1.2.6.tgz#fa55cf38ab3585005c9fb3c1ebfb3d4590c29fdc"
+  integrity sha512-7vVuSEZ8g/HH3hK/BH/+7u/NJj7x9VY4EHzujLDcqAQLiOUeFJYAsfSAyoWtR17lKrx7b08qyIno4lffwrzTaA==
 
 micromatch@^4.0.2:
   version "4.0.2"
