@@ -21,7 +21,6 @@ Justf Channel:
 YuutaW 的自言语:
   url: https://blog.yuuta.moe
   img: https://i.loli.net/2017/09/17/59be75c136a7f.jpg
-  text: "一个伪技术宅的垃圾堆"
 
 1A23 Studio:
   url: https://1a23.com
@@ -46,10 +45,10 @@ Felix's Blog:
   url: https://blog.felixc.at
   img: https://avatars3.githubusercontent.com/u/1006477
 
-Bruce Z Blog:
-  url: https://blog.brucezhang.cf
-  img: https://avatars1.githubusercontent.com/u/6873988
-  text: "Our fingers can code this world!"
+#Bruce Z Blog:
+#  url: https://blog.brucezhang.cf
+#  img: https://avatars1.githubusercontent.com/u/6873988
+#  text: "Our fingers can code this world!"
 
 依云's Blog:
   url: https://blog.lilydjwg.me
@@ -69,17 +68,15 @@ Bruce Z Blog:
 OriginCode 札記:
   url: https://originco.de
   img: https://avatars1.githubusercontent.com/u/17294071
-  text: "無人訪問之無趣博客 * 1"
 
 初等記憶體:
   url: https://axionl.me
   img: https://axionl.me/img/avatar_hu43a07dfb57339e3fdcfcb72da5eee6f6_670685_300x0_resize_q75_box.jpg
   text: "一個你知道的地方，和一個沒有酒的故事"
 
-Nick’s Nichijou:
+Nichi Yorozuya:
   url: https://nichi.co
   img: https://assets.gitlab-static.net/uploads/-/system/user/avatar/489470/avatar.png
-  text: "Golang吹/Arch党/后端狗"
 
 Farseerfc的小窩:
   url: https://farseerfc.me
@@ -102,7 +99,7 @@ weearc的个人博客:
   img: https://blog.weearc.top/image/face.ico
   text: "相离相惜莫相忘，且行且歌且珍惜"
 
-Edward-P's Blog:
+edward-p's blog:
   url: https://blog.edward-p.xyz
   img: https://avatars3.githubusercontent.com/u/7891089
 
