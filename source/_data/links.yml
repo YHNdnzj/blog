@@ -45,10 +45,10 @@ Felix's Blog:
   url: https://blog.felixc.at
   img: https://avatars3.githubusercontent.com/u/1006477
 
-#Bruce Z Blog:
-#  url: https://blog.brucezhang.cf
-#  img: https://avatars1.githubusercontent.com/u/6873988
-#  text: "Our fingers can code this world!"
+BZBlog:
+  url: https://brucezhang1993.github.io
+  img: https://avatars1.githubusercontent.com/u/6873988
+  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
 依云's Blog:
   url: https://blog.lilydjwg.me
