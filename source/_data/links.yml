@@ -13,7 +13,7 @@ Justf Channel:
   img: https://channel.justf.space/css/images/logo.png
   text: "幸福如人饮水，冷暖自知。"
 
-天空之边:
+天空·边界:
   url: https://liyin.date
   img: https://liyin.date/myfiles/images/logo.png
   text: "用心探知天空的边界"
@@ -32,9 +32,9 @@ Hi, DIYgod:
   img: https://diygod.me/images/DIYgod.jpg
   text: "写代码是热爱，写到世界充满爱！"
 
-Milkice's IceBox:
+奶冰の冷藏室:
   url: https://milkice.me
-  img: https://i.loli.net/2019/05/19/5ce1462a86b9d39837.jpg
+  img: https://static.milkice.yecdn.com/wp-content/uploads/2020/03/avatar.jpg
   text: "Maybe a way to explore the world?"
 
 约伊兹的萌狼乡手札:
@@ -62,12 +62,13 @@ BZBlog:
 
 喵's StackHarbor:
   url: https://sh.alynx.one
-  img: https://sh.alynx.one/images/logo.webp
+  img: https://sh.alynx.one/images/Mikoto_Karon_White.webp
   text: "Whisper to the World"
 
-OriginCode 札記:
+OriginCode Base:
   url: https://originco.de
   img: https://avatars1.githubusercontent.com/u/17294071
+  text: "Ela base do codigo da origina."
 
 初等記憶體:
   url: https://axionl.me
@@ -89,6 +90,7 @@ FiveYellowMice's Blog:
 本格异想录:
   url: https://astrianzheng.cn
   img: https://cdn.astrianzheng.cn/favicon.png
+  text: "钥之所指，心之所向。"
 
 瘋魔:
   url: https://blog.peven.me
