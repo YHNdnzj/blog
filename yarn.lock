@@ -594,7 +594,7 @@ hexo-fs@^3.0.1, hexo-fs@^3.1.0:
 
 "hexo-generator-alias@https://github.com/hexojs/hexo-generator-alias.git#master":
   version "1.0.0"
-  resolved "https://github.com/hexojs/hexo-generator-alias.git#1e95a25403301b66b8772de4a2cc61f5c44f99a9"
+  resolved "https://github.com/hexojs/hexo-generator-alias.git#c21ded11988f0c807d23e4f51f74b5224769e0ee"
   dependencies:
     hexo-util "^2.4.0"
 
