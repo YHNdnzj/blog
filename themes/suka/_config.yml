@@ -95,7 +95,7 @@ nav:
   rss:
     use: false
   share:
-    use: true
+    use: false
   search:
     use: true
     link: /search/
