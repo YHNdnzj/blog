@@ -29,12 +29,12 @@ YuutaW 的自言语:
 
 Hi, DIYgod:
   url: https://diygod.me
-  img: https://diygod.me/images/DIYgod.jpg
+  img: https://cdn.jsdelivr.net/gh/DIYgod/hexo-theme-sagiri/source/images/DIYgod-avatar2.webp
   text: "写代码是热爱，写到世界充满爱！"
 
 奶冰の冷藏室:
   url: https://milkice.me
-  img: https://static.milkice.yecdn.com/wp-content/uploads/2020/03/avatar.jpg
+  img: https://b.static.wfc01.com/wp-content/uploads/2020/03/avatar.jpg
   text: "Maybe a way to explore the world?"
 
 约伊兹的萌狼乡手札:
@@ -47,7 +47,7 @@ Felix's Blog:
 
 BZBlog:
   url: https://brucezhang1993.github.io
-  img: https://avatars1.githubusercontent.com/u/6873988
+  img: https://avatars.githubusercontent.com/u/6873988
   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
 依云's Blog:
@@ -72,7 +72,7 @@ OriginCode Base:
 
 初等記憶體:
   url: https://axionl.me
-  img: https://axionl.me/img/avatar_hu43a07dfb57339e3fdcfcb72da5eee6f6_670685_300x0_resize_q75_box.jpg
+  img: https://axionl.me/img/avatar_hub1dc8a650b495c118164fb85da876e1e_643833_300x0_resize_q75_box.jpg
   text: "一個你知道的地方，和一個沒有酒的故事"
 
 Nichi Yorozuya:
