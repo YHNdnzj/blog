@@ -6,7 +6,7 @@ tags:
 - EFB
 - Linux
 - systemd
-thumbnail: /2019/05/24/send-and-receive-messages-from-wechat-on-telegram/thumbnail.webp
+thumbnail: /2019/05/26/send-and-receive-messages-from-qq-on-telegram/thumbnail.webp
 ---
 
 > 2020/08/02: 由於 CoolQ 停止服務，此教學已經無法使用
