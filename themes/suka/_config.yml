@@ -141,7 +141,7 @@ post:
   #       license: 'This blog is under a <a href="/creativecommons.html" target="_blank">CC BY-NC-SA 3.0 Unported License</a>'
   # You can also use Front-Matter `license` to override this setting
   # or use Front-Matter `hide_license: true` to hide license on spefic post
-  license: '本文协议 : <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">知识共享署名 4.0 国际许可协议</a>'
+  license: '本文协议 : <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.zh-Hans" target="_blank">知识共享 (Creative Commons) 署名—相同方式共享 4.0公共许可协议国际版</a>'
 
 # Table Of Contents which will be show on right side of the post
 toc:
