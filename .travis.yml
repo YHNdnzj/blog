@@ -1,9 +1,0 @@
-language: node_js
-node_js: node
-branches:
-  only: 
-  - source
-before_script: ./.travis-install-theme.sh
-script: 
-  - yarn run build
-after_success: ./.travis-deploy.sh
