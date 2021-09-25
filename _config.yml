@@ -107,11 +107,6 @@ feed:
   type: atom
   limit: 20
 
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: ''
-
 suka_theme:
   search:
     enable: false
@@ -121,3 +116,8 @@ suka_theme:
     enable: false
     line_number: true
     theme: default
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: ''
