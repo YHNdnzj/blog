@@ -23,11 +23,6 @@ YuutaW 的自言语:
   img: https://blog.yuuta.moe/images/avatar.webp
   text: "一个萌新在探索世界的道路上留下的些许见解"
 
-1A23 Studio:
-  url: https://1a23.com
-  img: https://1a23.com/wp-content/uploads/2019/09/logo4square.svg
-  text: "We create."
-
 Hi, DIYgod:
   url: https://diygod.me
   img: https://cdn.jsdelivr.net/gh/DIYgod/hexo-theme-sagiri/source/images/DIYgod-avatar2.webp
@@ -67,7 +62,7 @@ BZBlog:
   text: "Whisper to the World"
 
 OriginCode Base:
-  url: https://originco.de
+  url: https://blog.origincode.me
   img: https://avatars1.githubusercontent.com/u/17294071
   text: "Ela base do codigo da origina."
 
@@ -105,10 +100,6 @@ weearc的个人博客:
 edward-p's blog:
   url: https://blog.edward-p.xyz
   img: https://avatars3.githubusercontent.com/u/7891089
-
-托马猫:
-  url: https://tomcat.one/blog
-  img: https://tomcat.one/favicon.ico
 
 李皓奇:
   url: https://liolok.com
