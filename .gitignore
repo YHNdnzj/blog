@@ -3,10 +3,6 @@ public/
 .deploy*/
 db.json
 
-# generate.sh
-yarn.lock
-package-lock.json
-
 # Logs
 logs
 *.log
