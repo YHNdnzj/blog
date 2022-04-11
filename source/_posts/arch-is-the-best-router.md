@@ -1,7 +1,7 @@
 ---
 title: 最好的軟路由 Powered By Arch Linux（其一：基本網路設定）
 date: 2021-08-13 09:10:25
-updated: 2021-08-13 09:34:30
+updated: 2022-04-11 13:24:56
 tags:
 - Linux
 - systemd
@@ -67,6 +67,9 @@ Name=extern0
 DHCP=yes
 IPv6AcceptRA=yes
 IPv6PrivacyExtensions=yes
+
+#[DHCPv6]
+#WithoutRA=solicit
 ```
 
 ```console
@@ -113,11 +116,8 @@ Address=10.0.0.1/24
 MulticastDNS=yes
 IPMasquerade=both
 #IPv6SendRA=yes
-#DHCPv6PrefixDelegation=yes
-
-#[IPv6SendRA]
-#Managed=yes
-#OtherInformation=yes
+#IPv6AcceptRA=no
+#DHCPPrefixDelegation=yes
 ```
 
 重新加載 networkd 配置：`# networkctl reload`
