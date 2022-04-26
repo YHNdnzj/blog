@@ -25,13 +25,13 @@ tags:
 systemd-oomd 依靠 cgroups v2 工作，且觸發 OOM 時殺死整個 cgroup 下的進程，所以建議使每個 desktop app 跑在獨立的 cgroup scope 裏。在 GNOME、KDE 等現代 DE 中，這是預設行爲；Sway 使用者可參考 [ArchWiki: Sway#Manage_Sway-specific_daemons_with_systemd](https://wiki.archlinux.org/title/Sway#Manage_Sway-specific_daemons_with_systemd)。
 
 <details>
-    <summary>~~兩年前第一次嘗試 sway + userspace OOM killer (oomd) 時的悲劇~~</summary>
+    <summary>兩年前第一次嘗試 sway + userspace OOM killer (oomd) 時的悲劇</summary>
 
     ![log](systemd-oomd-basic-usage/log.jpg)
     
-</details>
-
     ![chat](systemd-oomd-basic-usage/chat.jpg)
+
+</details>
 
 ## 開始設定
 
