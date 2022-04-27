@@ -28,11 +28,11 @@ thumbnail: /2022/04/27/systemd-oomd-basic-usage/thumbnail.webp
 systemd-oomd 依靠 cgroups v2 工作，在 Arch 等搭載較新 systemd 的 distro 上預設啓用。如果使用較老的 distro，可以使用 `systemd.unified_cgroup_hierarchy=1` kernel parameter 啓用。觸發 OOM 時，systemd-oomd 將殺死整個 cgroup 下的進程，所以建議使每個 desktop app 跑在獨立的 cgroup scope 裏。在 GNOME、KDE 等現代 DE 中，這是預設行爲；Sway 使用者可參考 [ArchWiki: Sway#Manage_Sway-specific_daemons_with_systemd](https://wiki.archlinux.org/title/Sway#Manage_Sway-specific_daemons_with_systemd)。
 
 <details>
-    <summary>~~兩年前第一次嘗試 sway + userspace OOM killer (oomd) 時的悲劇~~</summary>
+    <summary><del>兩年前第一次嘗試 sway + userspace OOM killer (oomd) 時的悲劇</del></summary>
 
-    ![log](systemd-oomd-basic-usage/log.jpg)
+    <img src="systemd-oomd-basic-usage/log.jpg">
 
-    ![chat](systemd-oomd-basic-usage/chat.jpg)
+    <img src="systemd-oomd-basic-usage/chat.png">
 
 </details>
 
