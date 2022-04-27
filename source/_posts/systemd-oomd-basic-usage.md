@@ -30,9 +30,9 @@ systemd-oomd 依靠 cgroups v2 工作，在 Arch 等搭載較新 systemd 的 dis
 <details>
     <summary><del>兩年前第一次嘗試 sway + userspace OOM killer (oomd) 時的悲劇</del></summary>
 
-    <img src="systemd-oomd-basic-usage/log.jpg">
+    <img src="/2022/04/27/systemd-oomd-basic-usage/log.jpg">
 
-    <img src="systemd-oomd-basic-usage/chat.png">
+    <img src="/2022/04/27/systemd-oomd-basic-usage/chat.png">
 
 </details>
 
