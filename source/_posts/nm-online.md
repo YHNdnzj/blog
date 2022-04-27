@@ -1,7 +1,7 @@
 ---
 title: 修復 NetworkManager-wait-online 導致的 network-online.target active 過早
-date: 2020-02-17 02:50:36
-updated: 2021-08-13 13:16:34
+date: 2020-02-17 10:50:36
+updated: 2021-08-13 21:16:34
 tags:
 - Linux
 - systemd

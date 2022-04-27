@@ -1,7 +1,7 @@
 ---
 title: ArchWiki[AMDGPU] 的錯誤配置導致的 NVIDIA PRIME 問題
-date: 2021-08-27 19:32:53
-updated: 2021-08-29 16:16:41
+date: 2021-08-28 03:32:53
+updated: 2021-08-30 00:16:41
 tags: 
 - Linux
 - Xorg
