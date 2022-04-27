@@ -1,12 +1,12 @@
 ---
 title: systemd-oomd 基本使用
 date: 2022-04-27 18:33:35
-updated: 2022-04-27 18:33:35
+updated: 2022-04-27 18:49:47
 tags:
 - Linux
 - systemd
 - Memory
-thumbnail: /2022/04/27/systemd-basic-usage/thumbnail.webp
+thumbnail: /2022/04/27/systemd-oomd-basic-usage/thumbnail.webp
 ---
 
 > systemd 247 引入了自己的 OOM killer systemd-oomd（~~「systemd，你個 init 又吞併功能了」~~，瞭解後發現其可以更好地針對 cgroup 進行 OOM 監控/管理。但其文檔並不豐富、缺少示例配置，於是打算介紹一下其基本使用。
