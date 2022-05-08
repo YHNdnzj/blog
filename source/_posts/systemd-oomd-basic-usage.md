@@ -1,7 +1,7 @@
 ---
 title: systemd-oomd 基本使用
 date: 2022-04-28 02:33:35
-updated: 2022-04-28 03:16:49
+updated: 2022-05-08 19:04:07
 tags:
 - Linux
 - systemd
@@ -25,7 +25,7 @@ thumbnail: /2022/04/28/systemd-oomd-basic-usage/thumbnail.webp
 
 雖然現代無論是桌機還是筆電的 RAM 都基本 >= 16 GiB，一般不會 OOM，但 swap 空間依然是必要的。[systemd-oomd 的 man page](https://man.archlinux.org/man/systemd-oomd.8#SETUP_INFORMATION) 引用了一篇名爲 *In defence of swap: common misconceptions* 的文章，farseerfc 老師的 blog 有其翻譯：[替 swap 辯護：常見的誤解](https://farseerfc.me/in-defence-of-swap.html)。這在記憶體空間不足時給 systemd-oomd 足夠的時間響應，更對系統穩定性有幫助。如果沒有預留 swap partition，可以根據 ArchWiki 設定 swapfile。
 
-systemd-oomd 依靠 cgroups v2 工作，在 Arch 等搭載較新 systemd 的 distro 上預設啓用。如果使用較老的 distro，可以使用 `systemd.unified_cgroup_hierarchy=1` kernel parameter 啓用。觸發 OOM 時，systemd-oomd 將殺死整個 cgroup 下的進程，所以建議使每個 desktop app 跑在獨立的 cgroup scope 裏。在 GNOME、KDE 等現代 DE 中，這是預設行爲；Sway 使用者可參考 [ArchWiki: Sway#Manage_Sway-specific_daemons_with_systemd](https://wiki.archlinux.org/title/Sway#Manage_Sway-specific_daemons_with_systemd)。
+systemd-oomd 依靠 cgroups v2 工作，在 Arch 等搭載較新 systemd 的 distro 上預設啓用。如果使用較老的 distro，可以使用 `systemd.unified_cgroup_hierarchy=1` kernel parameter 啓用。觸發 OOM 時，systemd-oomd 將殺死整個 cgroup 下的進程，所以建議使每個 desktop app 跑在獨立的 cgroup scope 裏。在 GNOME、KDE 等現代 DE 中，這是預設行爲；Sway 使用者可參考 [ArchWiki: Sway#Manage Sway-specific daemons with systemd](https://wiki.archlinux.org/title/Sway#Manage_Sway-specific_daemons_with_systemd)。
 
 ## 正篇
 
