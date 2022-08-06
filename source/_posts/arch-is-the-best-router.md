@@ -1,7 +1,7 @@
 ---
 title: 最好的軟路由 Powered By Arch Linux（其一：基本網路設定）
 date: 2021-08-13 17:10:25
-updated: 2022-04-11 21:24:56
+updated: 2022-08-07 01:21:10
 tags:
 - Linux
 - systemd
@@ -32,7 +32,7 @@ Just follow the [Installation guide](https://wiki.archlinux.org/title/Installati
 
 我選擇使用 `systemd-networkd` 進行介面配置，`resolved` 作爲 DNS Server，`dhcpd` 作爲 DHCPv4 Server。
 
-`# pacman -S dhcpd`
+`# pacman -S dhcp`
 
 （本想只使用 systemd 組件完成所有工作的，但是 networkd 的 DHCPServer 太難用了…~~不過還是可以少裝幾個包~~）
 
@@ -67,9 +67,6 @@ Name=extern0
 DHCP=yes
 IPv6AcceptRA=yes
 IPv6PrivacyExtensions=yes
-
-#[DHCPv6]
-#WithoutRA=solicit
 ```
 
 ```console
@@ -116,8 +113,13 @@ Address=10.0.0.1/24
 MulticastDNS=yes
 IPMasquerade=both
 #IPv6SendRA=yes
-#IPv6AcceptRA=no
 #DHCPPrefixDelegation=yes
+#IPv6AcceptRA=no
+
+#[DHCPPrefixDelegation]
+#UplinkInterface=extern0
+#SubnetId=1
+#Announce=yes
 ```
 
 重新加載 networkd 配置：`# networkctl reload`
