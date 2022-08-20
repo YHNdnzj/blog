@@ -4,6 +4,7 @@ date: 2020-12-13 00:40:13
 updated: 2020-12-13 00:40:13
 tags:
 - Real life
+- Hardware device
 thumbnail: /2020/12/13/iphone-12-experience/thumbnail.webp
 ---
 
