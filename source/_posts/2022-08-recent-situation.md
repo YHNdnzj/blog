@@ -1,7 +1,7 @@
 ---
-title: 兩年以來的近況更新
+title: 兩年以來的近況更新（兼 ASUS Zephyrus G14 使用體驗）
 date: 2022-08-20 18:56:15
-updated: 2022-08-20 19:56:33
+updated: 2022-10-15 03:00:40
 tags:
 - Real life
 - Linux
