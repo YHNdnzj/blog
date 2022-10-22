@@ -1,12 +1,14 @@
 ---
 title: 在 Xwayland on Sway 上用上真正 High 的 DPI
 date: 2022-10-17 02:18:10
+updated: 2022-10-22 18:18:38
 tags:
 - Linux
 - Wayland
 - Xwayland
 - HiDPI
 - Sway
+thumbnail: /2022/10/17/sway-xwayland-real-hidpi/thumbnail.webp
 ---
 
 > 自從換上 Sway，我就開始強烈避免使用 X11 應用，最大的原因便是糊成一團的 *LowDPI*；而這對於 Wine/Proton 遊戲更是噩夢，體驗直接回到 PS3 時代……再看另兩家主流 DE，GNOME 不開分數倍縮放倒是不糊，而 KDE 在 5.26 剛剛引入讓 Xwayland 不糊的選項，體驗也只能算是 degraded。最近，我終於讓 Sway 上的 Xwayland 應用清晰起來，遂在此留下記錄。
@@ -78,7 +80,7 @@ exec_always {
 
 ## Acknowledgement
 
-- 依雲：Xwayland patch 作者（她針對 Wayfire 的 [博文](https://blog.lilydjwg.me/2021/11/20/wayfire-migration-2.215977.html)）
+- 依雲：wlroots patch 作者（她針對 Wayfire 的 [博文](https://blog.lilydjwg.me/2021/11/20/wayfire-migration-2.215977.html)）
 - q234rty：`xorg-xwayland-hidpi-xprop`, `wlroots-hidpi-xprop-git`, `sway-im-git` 的打包者、本文大多數內容的貢獻者
 
 ## 最後的一點吐槽
