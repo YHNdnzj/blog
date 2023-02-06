@@ -1,45 +1,31 @@
 Sukka's Blog:
   url: https://blog.skk.moe
-  img: https://cdn.jsdelivr.net/npm/skx@0.3.9/avatar/144x144.webp
+  img: https://avatars.githubusercontent.com/u/40715044
   text: "童话只美在真实却从不续写"
-
-LetITFly BBS:
-  url: https://bbs.letitfly.me
-  img: https://bbs.letitfly.me/assets/logo-gcnz3chf.png
-  text: "致力于让 Android 的体验更美好"
-
-Justf Channel:
-  url: https://channel.justf.space
-  img: https://channel.justf.space/css/images/logo.png
-  text: "幸福如人饮水，冷暖自知。"
 
 天空·边界:
   url: https://liyin.date
   img: https://liyin.date/myfiles/images/logo.png
   text: "用心探知天空的边界"
 
-YuutaW 的自言语:
+Garden in the Wonderland:
   url: https://blog.yuuta.moe
   img: https://blog.yuuta.moe/images/avatar.webp
-  text: "一个萌新在探索世界的道路上留下的些许见解"
-
-Hi, DIYgod:
-  url: https://diygod.me
-  img: https://cdn.jsdelivr.net/gh/DIYgod/hexo-theme-sagiri/source/images/DIYgod-avatar2.webp
-  text: "写代码是热爱，写到世界充满爱！"
+  text: "Yuuta Liang's Technical Diary"
 
 奶冰の冷藏室:
   url: https://milkice.me
-  img: https://avatars.githubusercontent.com/u/5274559
+  img: https://milkice.me/wp-content/uploads/2020/03/avatar.jpg
   text: "Maybe a way to explore the world?"
 
 约伊兹的萌狼乡手札:
-  url: https://blog.yoitsu.moe
-  img: https://blog.yoitsu.moe/theme/images/wiki.png
+  url: https://blog.horo.moe
+  img: https://avatars.githubusercontent.com/u/26817553
+  text: "虽然咱长久以来被尊为神，且被束缚在这块土地上，但咱根本不是什么伟大的神。咱就是咱。咱是赫萝。"
 
 Felix's Blog:
   url: https://blog.felixc.at
-  img: https://avatars3.githubusercontent.com/u/1006477
+  img: https://avatars.githubusercontent.com/u/1006477
 
 BZBlog:
   url: https://brucezhang1993.github.io
@@ -61,10 +47,9 @@ BZBlog:
   img: https://sh.alynx.one/images/Mikoto_Karon_White.webp
   text: "Whisper to the World"
 
-OriginCode Base:
+千須末記事屋:
   url: https://blog.origincode.me
-  img: https://avatars1.githubusercontent.com/u/17294071
-  text: "Ela base do codigo da origina."
+  img: https://avatars.githubusercontent.com/u/17294071
 
 初等記憶體:
   url: https://axionl.me
@@ -73,7 +58,7 @@ OriginCode Base:
 
 Nichi Yorozuya:
   url: https://nichi.co
-  img: https://assets.gitlab-static.net/uploads/-/system/user/avatar/489470/avatar.png
+  img: https://avatars.githubusercontent.com/u/15247171
 
 Farseerfc的小窩:
   url: https://farseerfc.me
@@ -81,16 +66,16 @@ Farseerfc的小窩:
 
 FiveYellowMice's Blog:
   url: https://fiveyellowmice.com
-  img: https://avatars1.githubusercontent.com/u/9077203
+  img: https://avatars.githubusercontent.com/u/9077203
 
 本格异想录:
   url: https://astrianzheng.cn
-  img: https://cdn.astrianzheng.cn/favicon.png
+  img: https://avatars.githubusercontent.com/u/4896770
   text: "钥之所指，心之所向。"
 
 瘋魔:
   url: https://blog.peven.me
-  img: https://avatars2.githubusercontent.com/u/23262111
+  img: https://blog.peven.me/images/avatar.jpg
 
 weearc的个人博客:
   url: https://blog.weearc.top
@@ -99,7 +84,7 @@ weearc的个人博客:
 
 edward-p's blog:
   url: https://blog.edward-p.xyz
-  img: https://avatars3.githubusercontent.com/u/7891089
+  img: https://avatars.githubusercontent.com/u/7891089
 
 李皓奇:
   url: https://liolok.com
@@ -116,4 +101,18 @@ Hydroxide:
 
 Vifly 的博客:
   url: https://viflythink.com
-  img: https://avatars.githubusercontent.com/u/48406926
+  img: https://viflythink.com/img/avatar_hu139cde8ab2a45f6f8ca9b1d680d35535_828870_300x0_resize_box_3.png
+  text: "真正的无知不是知识的贫乏，而是拒绝获取知识"
+
+惠狐之书:
+  url: https://blog.megumifox.com/public
+  img: https://avatars.githubusercontent.com/u/23371099
+
+欠陥電気の摸鱼小池:
+  url: https://blog.atri.tk
+  img: https://blog.atri.tk/img/default_avatar.webp
+  text: "Misaka13514的小站"
+
+倚窗，听雨:
+  url: https://blog.coelacanthus.moe
+  img: https://avatars.githubusercontent.com/u/43064781
