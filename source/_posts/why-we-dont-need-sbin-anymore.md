@@ -35,4 +35,6 @@ thumbnail: /2023/09/24/why-we-dont-need-sbin-anymore/thumbnail.webp
 
 ### 後補：Fedora 的 proposal
 
-偶然發現 Fedora 也已經有了 bin merge 的 proposal，而且其理由與本文所述有相同之處（好！
+偶然發現 Fedora 也已經有了 bin merge 的 [proposal](https://fedoraproject.org/wiki/Changes/Unify_bin_and_sbin)，而且其理由與本文所述有相同之處（好！
+
+同時在 detail 中還提及了 sbin 的更多歷史，感興趣的也可以去看看。
