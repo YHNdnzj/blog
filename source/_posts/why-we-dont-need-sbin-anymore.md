@@ -1,6 +1,7 @@
 ---
 title: 爲什麼現代 Linux 不再需要 sbin（bin merge 的意義）
 date: 2023-09-24 15:33:28
+updated: 2023-09-24 22:52:19
 tags:
 - Linux
 thumbnail: /2023/09/24/why-we-dont-need-sbin-anymore/thumbnail.webp
@@ -31,3 +32,7 @@ thumbnail: /2023/09/24/why-we-dont-need-sbin-anymore/thumbnail.webp
 最後，我拋出一個個人觀點：即使真的有某個應用強依賴特權，我們應該對其它 user 隱藏嗎？我自己的答案是否定的，因爲我覺得這會造成更多的 confusion。何況，從 `PATH` 中移除也並不是隱藏，更像是「此地無銀三百兩」。比起 *command not found*，明確的報錯和原因才更加合理，對 sysadmin 也一樣。
 
 綜上所述，在現代 Linux 上，policy-based 的權限機制和 userns 已經使得 access control 這件事變得動態，同時 `PATH` 只包含 `/usr/bin/` 也能降低 user 和 sysadmin 的心智負擔。我覺得既然已經邁出了 usr merge 的一步，bin merge 的普及也是當仁不讓的正確之舉。
+
+### 後補：Fedora 的 proposal
+
+偶然發現 Fedora 也已經有了 bin merge 的 proposal，而且其理由與本文所述有相同之處（好！
